@@ -8,6 +8,8 @@
     "description": "ElevenLabs提供业界最逼真的AI语音合成，支持声音克隆、多语言配音、语音转语音等功能。",
     "features": ["超逼真语音", "声音克隆", "多语言配音", "语音转语音", "声音设计"],
     "useCases": ["配音", "有声书", "游戏配音", "语音助手", "视频配音"],
+    "pros": ["语音质量最逼真", "声音克隆效果好", "支持28+语言", "API完善", "免费积分足够试用"],
+    "cons": ["部分功能需要付费", "免费版有限制", "中文语音质量不如英文", "需要梯子访问"],
     "pricing": "freemium",
     "website": "https://elevenlabs.io",
     "logo": "🎙️",
@@ -15,7 +17,11 @@
     "platform": ["web"],
     "language": ["中文", "英文", "多语言"],
     "featured": true,
-    "updatedAt": "2026-03-01"
+    "updatedAt": "2026-03-01",
+    "alternatives": ["Murf", "Speechify", "Azure TTS"],
+    "bestFor": "配音演员、有声书创作者、游戏开发者、视频创作者",
+    "notFor": "实时对话系统、简单TTS需求",
+    "pricingNotes": "免费10000字符/月，Starter版$5/月"
   },
   {
     "id": "murf",
@@ -26,6 +32,8 @@
     "description": "Murf AI专注于提供专业级别的AI语音合成服务，适合视频配音、广告旁白、企业培训等场景。",
     "features": ["120+声音", "20+语言", "背景音乐", "同步字幕", "团队协作"],
     "useCases": ["视频配音", "广告旁白", "培训课件", "播客", "有声书"],
+    "pros": ["专业音质", "声音选择多", "团队协作支持", "背景音乐选项", "商用授权清晰"],
+    "cons": ["免费版限制严", "价格偏高", "界面略显复杂", "中文支持一般"],
     "pricing": "paid",
     "website": "https://murf.ai",
     "logo": "🎤",
@@ -33,7 +41,11 @@
     "platform": ["web"],
     "language": ["中文", "英文", "多语言"],
     "featured": false,
-    "updatedAt": "2026-02-15"
+    "updatedAt": "2026-02-15",
+    "alternatives": ["ElevenLabs", "Speechify", "Amazon Polly"],
+    "bestFor": "企业培训视频、广告旁白、专业配音项目",
+    "notFor": "个人快速配音、声音克隆需求",
+    "pricingNotes": "免费试用，Pro版$29/月起"
   },
   {
     "id": "speechify",
@@ -44,6 +56,8 @@
     "description": "Speechify可以将任何文字转换为自然语音，支持网页、文档扫描、PDF等多种输入方式。",
     "features": ["文字转语音", "文档扫描", "多语言", "播放控制", "收藏同步"],
     "useCases": ["听书", "学习", "文档朗读", "无障碍阅读", "多任务处理"],
+    "pros": ["文档扫描功能强", "支持多格式输入", "多语言朗读", "听书体验好", "免费版功能丰富"],
+    "cons": ["高级声音需要付费", "中文支持较弱", "部分功能需要Chrome扩展", "服务器在海外"],
     "pricing": "freemium",
     "website": "https://speechify.com",
     "logo": "📖",
@@ -51,7 +65,11 @@
     "platform": ["web", "ios", "android"],
     "language": ["中文", "英文", "多语言"],
     "featured": false,
-    "updatedAt": "2026-02-20"
+    "updatedAt": "2026-02-20",
+    "alternatives": ["ElevenLabs", "NaturalReader", "Voice Dream"],
+    "bestFor": "学习者、无障碍需求用户、有声书爱好者",
+    "notFor": "专业配音、商业视频旁白",
+    "pricingNotes": "免费版功能丰富，Premium版$139/年"
   },
   {
     "id": "descript",
@@ -62,6 +80,8 @@
     "description": "Descript革新了音视频编辑方式，支持转录、编辑、协作和发布一体化流程。",
     "features": ["AI转录", "像编辑文档一样编辑", "AI声音克隆", "屏幕录制", "多轨道编辑"],
     "useCases": ["播客制作", "视频剪辑", "访谈录制", "内容创作", "团队协作"],
+    "pros": ["编辑方式革新", "转录准确率高", "AI功能强大", "一体化工作流", "协作功能完善"],
+    "cons": ["学习曲线存在", "免费版限制多", "需要下载客户端", "对硬件要求较高"],
     "pricing": "freemium",
     "website": "https://descript.com",
     "logo": "🎚️",
@@ -69,7 +89,11 @@
     "platform": ["web", "windows", "mac"],
     "language": ["中文", "英文"],
     "featured": false,
-    "updatedAt": "2026-02-25"
+    "updatedAt": "2026-02-25",
+    "alternatives": ["Adobe Audition", "Audacity", "Camtasia"],
+    "bestFor": "播客创作者、视频博主、访谈节目、内容团队",
+    "notFor": "简单音频剪辑、快速转录需求",
+    "pricingNotes": "免费1小时转录，Pro版$24/月含无限转录"
   },
   {
     "id": "suno",
@@ -80,13 +104,19 @@
     "description": "Suno是创新的AI音乐生成平台，任何人都可以用文字描述创作原创音乐和歌曲。",
     "features": ["文字生成音乐", "歌词创作", "多风格", "人声分离", "高质量输出"],
     "useCases": ["音乐创作", "视频配乐", "游戏音乐", "广告音乐", "个人娱乐"],
-    "pricing": "freemium",
+    "pros": ["音乐质量高", "操作极其简单", "完全免费使用", "支持人声和纯音乐", "社区活跃"],
+    "cons": ["歌词版权有一定争议", "长音乐连贯性有时下降", "无法精确控制音乐结构", "商用需注意版权"],
+    "pricing": "free",
     "website": "https://suno.ai",
     "logo": "🎵",
     "tags": ["音乐生成", "AI作曲", "创作"],
     "platform": ["web"],
     "language": ["中文", "英文"],
     "featured": true,
-    "updatedAt": "2026-03-01"
+    "updatedAt": "2026-03-01",
+    "alternatives": ["Udio", "Boomy", "AIVA"],
+    "bestFor": "独立音乐人、视频创作者、需要背景音乐的内容创作者",
+    "notFor": "需要精确音乐控制、商业版权要求严格的项目",
+    "pricingNotes": "完全免费，但需注意平台使用条款中的版权规定"
   }
 ]

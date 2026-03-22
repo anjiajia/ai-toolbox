@@ -8,6 +8,8 @@
     "description": "Midjourney是当前最受欢迎的AI图像生成工具之一，以其艺术感强、画面精美的风格著称。",
     "features": ["文本生成图像", "风格多样", "高清输出", "社区分享", "Vary重生成"],
     "useCases": ["艺术创作", "概念设计", "产品图", "社交媒体配图", "游戏素材"],
+    "pros": ["画质顶尖，艺术感强", "社区生态成熟", "持续快速迭代", "支持图生图", "社区画廊参考价值高"],
+    "cons": ["需要订阅付费", "需要科学上网", " Discord界面学习成本", "商业版权有一定限制", "中文支持一般"],
     "pricing": "paid",
     "website": "https://www.midjourney.com",
     "logo": "🎨",
@@ -15,7 +17,11 @@
     "platform": ["web"],
     "language": ["中文", "英文"],
     "featured": true,
-    "updatedAt": "2026-03-01"
+    "updatedAt": "2026-03-01",
+    "alternatives": ["DALL-E", "Leonardo AI", "Stable Diffusion", "Ideogram"],
+    "bestFor": "艺术创作、概念设计、游戏美术、品牌视觉",
+    "notFor": "需要精准文字渲染、实时数据可视化、快速简单配图",
+    "pricingNotes": "标准版$30/月，按年付$240/年，含快速生成时间"
   },
   {
     "id": "dall-e",
@@ -26,6 +32,8 @@
     "description": "DALL-E是OpenAI开发的AI图像生成模型，可以根据文字描述创建、编辑和变换图像。",
     "features": ["文本生成图像", "图像编辑", "风格变换", "Inpainting编辑", "多版本生成"],
     "useCases": ["插画创作", "营销素材", "产品设计", "概念艺术", "教育配图"],
+    "pros": ["OpenAI技术背书", "ChatGPT Plus可直接使用", "编辑能力强", "安全过滤相对完善", "商用相对友好"],
+    "cons": ["艺术风格不如Midjourney", "提示词理解有时偏差", "生成速度一般", "免费额度有限"],
     "pricing": "freemium",
     "website": "https://openai.com/dall-e-3",
     "logo": "🖼️",
@@ -33,7 +41,11 @@
     "platform": ["web"],
     "language": ["中文", "英文"],
     "featured": true,
-    "updatedAt": "2026-03-01"
+    "updatedAt": "2026-03-01",
+    "alternatives": ["Midjourney", "Leonardo AI", "Ideogram", "Stable Diffusion"],
+    "bestFor": "插画、产品概念图、教育内容、需要精确控制的图像",
+    "notFor": "追求艺术感的创作、高逼真度写实风格",
+    "pricingNotes": "ChatGPT Plus用户($20/月)可直接使用，免费额度用完需订阅"
   },
   {
     "id": "leonardo-ai",
@@ -44,6 +56,8 @@
     "description": "Leonardo AI专注于游戏资产、角色设计、场景构建等创意领域，提供高度自定义的生成能力。",
     "features": ["游戏资产生成", "风格模型定制", "ControlNet控制", "实时绘制", "批量生成"],
     "useCases": ["游戏美术", "角色设计", "场景概念", "UI素材", "营销配图"],
+    "pros": ["游戏资产专用功能强", "每日免费积分", "支持ControlNet", "社区模型丰富", "界面直观易用"],
+    "cons": ["免费用户有生成限制", "海外服务器略有延迟", "部分功能需要Pro订阅", "中文支持弱"],
     "pricing": "freemium",
     "website": "https://leonardo.ai",
     "logo": "🎮",
@@ -51,7 +65,11 @@
     "platform": ["web"],
     "language": ["英文"],
     "featured": false,
-    "updatedAt": "2026-02-20"
+    "updatedAt": "2026-02-20",
+    "alternatives": ["Midjourney", "Stable Diffusion", "Ideogram"],
+    "bestFor": "游戏美术设计师、独立游戏开发者、概念艺术师",
+    "notFor": "纯艺术插画、商业品牌设计、快速简单配图",
+    "pricingNotes": "免费用户每日150积分，Pro版$20/月无限制"
   },
   {
     "id": "ideogram",
@@ -62,6 +80,8 @@
     "description": "Ideogram以其出色的文字渲染能力著称，可以直接在图像中生成包含文字的设计作品。",
     "features": ["文字渲染", "海报生成", "Logo设计", "多风格支持", "社区画廊"],
     "useCases": ["海报设计", "Logo创作", "社交媒体图文", "T恤设计", "品牌素材"],
+    "pros": ["文字渲染最强", "免费额度多", "海报模板丰富", "操作简单", "社区分享活跃"],
+    "cons": ["长段落文字仍有瑕疵", "艺术风格相对有限", "高清输出需订阅", "和Midjourney比画质略逊"],
     "pricing": "freemium",
     "website": "https://ideogram.ai",
     "logo": "✏️",
@@ -69,7 +89,11 @@
     "platform": ["web"],
     "language": ["中文", "英文"],
     "featured": false,
-    "updatedAt": "2026-02-25"
+    "updatedAt": "2026-02-25",
+    "alternatives": ["Midjourney", "DALL-E", "Leonardo AI", "Canva AI"],
+    "bestFor": "海报设计、Logo制作、需要文字的社交媒体配图、品牌素材",
+    "notFor": "高逼真度写实风格、复杂场景生成",
+    "pricingNotes": "免费每日100张，Pro版$16/月无限生成"
   },
   {
     "id": "adobe-firefly",
@@ -80,6 +104,8 @@
     "description": "Firefly是Adobe推出的AI创意工具，与Photoshop、Illustrator等Adobe产品深度集成。",
     "features": ["文字生成图像", "创意填充", "字体生成", "与Adobe产品集成", "商业安全"],
     "useCases": ["图像编辑", "平面设计", "UI素材", "营销创意", "照片合成"],
+    "pros": ["Adobe生态无缝集成", "商用安全性高", "创意填充强大", "Photoshop内直接使用", "持续快速更新"],
+    "cons": ["需要Adobe订阅", "单独使用功能有限", "艺术风格不如Midjourney", "免费额度较少"],
     "pricing": "freemium",
     "website": "https://firefly.adobe.com",
     "logo": "🔥",
@@ -87,6 +113,10 @@
     "platform": ["web"],
     "language": ["中文", "英文"],
     "featured": false,
-    "updatedAt": "2026-03-01"
+    "updatedAt": "2026-03-01",
+    "alternatives": ["Midjourney", "DALL-E", "Canva AI", "Stable Diffusion"],
+    "bestFor": "Adobe用户、平面设计师、营销团队、商业项目",
+    "notFor": "独立艺术家、追求极致艺术风格、预算有限个人用户",
+    "pricingNotes": "需要Adobe Creative Cloud订阅，部分功能单独付费"
   }
 ]

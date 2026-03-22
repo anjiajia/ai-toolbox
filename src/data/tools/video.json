@@ -8,6 +8,8 @@
     "description": "Runway是AI视频领域的领导者，提供从文本/图像到视频生成、视频编辑、特效制作等完整功能。",
     "features": ["文本生成视频", "图像生成视频", "视频编辑", "运动追踪", "绿幕抠像"],
     "useCases": ["短视频创作", "广告制作", "电影特效", "内容营销", "游戏过场"],
+    "pros": ["功能最全面的AI视频平台", "Gen-3模型质量优秀", "持续快速迭代", "社区资源丰富", "API支持开发者"],
+    "cons": ["免费额度有限", "专业版价格较高", "生成速度受服务器影响", "长视频生成成本高"],
     "pricing": "freemium",
     "website": "https://runwayml.com",
     "logo": "🎬",
@@ -15,7 +17,11 @@
     "platform": ["web"],
     "language": ["中文", "英文"],
     "featured": true,
-    "updatedAt": "2026-03-01"
+    "updatedAt": "2026-03-01",
+    "alternatives": ["Pika", "Kling", "Synthesia", "HeyGen"],
+    "bestFor": "短视频创作者、营销团队、专业视频制作",
+    "notFor": "企业培训视频、简单快速剪辑",
+    "pricingNotes": "免费125积分，Pro版$35/月"
   },
   {
     "id": "pika",
@@ -26,6 +32,8 @@
     "description": "Pika专注于简化AI视频创作流程，让用户无需专业技能即可快速生成AI视频。",
     "features": ["文本转视频", "图像转视频", "视频延长", "风格选择", "操作简单"],
     "useCases": ["社交媒体", "短视频", "教程视频", "演示文稿", "个人创作"],
+    "pros": ["操作极其简单", "界面友好", "免费额度多", "视频延长功能实用", "适合新手入门"],
+    "cons": ["画质不如Runway", "复杂场景处理能力弱", "可控性较低", "长视频容易失真"],
     "pricing": "freemium",
     "website": "https://pika.art",
     "logo": "🎥",
@@ -33,7 +41,11 @@
     "platform": ["web"],
     "language": ["中文", "英文"],
     "featured": false,
-    "updatedAt": "2026-02-15"
+    "updatedAt": "2026-02-15",
+    "alternatives": ["Runway", "Kling", "Stable Video"],
+    "bestFor": "AI视频新手、社交媒体创作者、快速原型",
+    "notFor": "专业视频制作、高品质商业视频",
+    "pricingNotes": "免费用户有有限生成次数，Pro版$8/月"
   },
   {
     "id": "synthesia",
@@ -44,6 +56,8 @@
     "description": "Synthesia专注于AI数字人视频生成，支持多语言，适合企业培训、产品介绍等场景。",
     "features": ["AI数字人", "120+语言", "模板丰富", "自定义Avatar", "视频克隆"],
     "useCases": ["企业培训", "产品演示", "客户教程", "营销视频", "新闻播报"],
+    "pros": ["数字人效果逼真", "多语言支持最强", "企业级功能完善", "模板丰富", "无需视频拍摄经验"],
+    "cons": ["价格较高", "数字人动作有限", "创意自由度低", "国内访问不稳定"],
     "pricing": "paid",
     "website": "https://synthesia.io",
     "logo": "👤",
@@ -51,7 +65,11 @@
     "platform": ["web"],
     "language": ["中文", "英文", "多语言"],
     "featured": true,
-    "updatedAt": "2026-03-01"
+    "updatedAt": "2026-03-01",
+    "alternatives": ["HeyGen", "D-ID", "Creole"],
+    "bestFor": "企业培训、在线教育、产品介绍视频、多语言营销",
+    "notFor": "创意短视频、个人娱乐内容、需要高度个性化场景",
+    "pricingNotes": "Starter版$29/月，企业版$99/月起"
   },
   {
     "id": "heygon",
@@ -62,6 +80,8 @@
     "description": "HeyGen提供AI数字人、视频翻译、可定制Avatar等功能，是跨境营销视频制作的热门选择。",
     "features": ["AI数字人", "视频翻译", "Talking Photo", "多语言配音", "API支持"],
     "useCases": ["跨境营销", "产品介绍", "社媒视频", "在线课程", "品牌宣传"],
+    "pros": ["视频翻译功能强大", "数字人选择多", "支持Talking Photo", "API完善", "价格相对实惠"],
+    "cons": ["中文数字人选择较少", "免费版限制多", "翻译偶有口型不匹配", "批量制作效率一般"],
     "pricing": "freemium",
     "website": "https://heygen.com",
     "logo": "🌍",
@@ -69,7 +89,11 @@
     "platform": ["web"],
     "language": ["中文", "英文", "多语言"],
     "featured": false,
-    "updatedAt": "2026-02-20"
+    "updatedAt": "2026-02-20",
+    "alternatives": ["Synthesia", "D-ID", "Runway"],
+    "bestFor": "跨境电商、国际化营销、多语言产品介绍",
+    "notFor": "国内营销、需要高逼真度数字人",
+    "pricingNotes": "免费试用，Pro版$29/月，企业版定制报价"
   },
   {
     "id": "kling",
@@ -80,6 +104,8 @@
     "description": "Kling是快手开发的AI视频生成大模型，支持高质量视频生成和编辑，国产AI视频的代表。",
     "features": ["高画质生成", "动作捕捉", "视频续写", "风格迁移", "本地部署选项"],
     "useCases": ["短视频创作", "内容创作", "电商展示", "品牌营销", "影视预览"],
+    "pros": ["国产优势，中文友好", "画质表现优秀", "视频续写能力强", "动作连贯性好", "免费额度较多"],
+    "cons": ["国际版功能可能受限", "生态不如Runway完善", "部分功能需要付费", "社区资源较少"],
     "pricing": "freemium",
     "website": "https://klingai.com",
     "logo": "⚡",
@@ -87,6 +113,10 @@
     "platform": ["web"],
     "language": ["中文", "英文"],
     "featured": true,
-    "updatedAt": "2026-03-01"
+    "updatedAt": "2026-03-01",
+    "alternatives": ["Runway", "Pika", "Stable Video"],
+    "bestFor": "中文内容创作者、电商卖家、国产项目",
+    "notFor": "需要国际化部署、专业电影级制作",
+    "pricingNotes": "免费用户有每日生成额度，付费版$9.9/月起"
   }
 ]

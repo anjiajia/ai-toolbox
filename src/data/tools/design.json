@@ -8,6 +8,8 @@
     "description": "Canva AI将AI能力融入设计平台，提供AI文案生成、图片编辑、PPT制作等功能。",
     "features": ["AI文案", "Magic Edit", "Magic Design", "PPT生成", "百万模板"],
     "useCases": ["社交媒体", "PPT演示", "海报设计", "Logo设计", "视频制作"],
+    "pros": ["模板数量最多", "操作最简单", "免费版功能强", "多平台覆盖", "AI功能实用"],
+    "cons": ["专业设计能力有限", "导出质量有时受限", "品牌套件需要付费", "批量设计效率一般"],
     "pricing": "freemium",
     "website": "https://www.canva.com",
     "logo": "🖼️",
@@ -15,7 +17,11 @@
     "platform": ["web", "ios", "android"],
     "language": ["中文", "英文", "多语言"],
     "featured": true,
-    "updatedAt": "2026-03-01"
+    "updatedAt": "2026-03-01",
+    "alternatives": ["Adobe Express", "Figma", "Piktochart"],
+    "bestFor": "非设计师、社交媒体运营、快速制作宣传物料",
+    "notFor": "专业UI设计、高度定制化设计需求",
+    "pricingNotes": "免费版已很强，Pro版$14.99/人/月"
   },
   {
     "id": "gamma",
@@ -26,6 +32,8 @@
     "description": "Gamma专注于AI生成PPT，用户只需输入主题或大纲，即可生成完整精美的演示文稿。",
     "features": ["AI生成PPT", "在线编辑", "主题定制", "嵌入媒体", "网页导出"],
     "useCases": ["商务演示", "教学课件", "方案汇报", "产品介绍", "团队汇报"],
+    "pros": ["PPT生成极快", "设计质量高", "主题风格现代", "在线协作", "可导出网页"],
+    "cons": ["模板自定义有限", "复杂PPT表达能力有限", "免费版有张数限制", "动画效果较少"],
     "pricing": "freemium",
     "website": "https://gamma.app",
     "logo": "📊",
@@ -33,7 +41,11 @@
     "platform": ["web"],
     "language": ["中文", "英文"],
     "featured": true,
-    "updatedAt": "2026-03-01"
+    "updatedAt": "2026-03-01",
+    "alternatives": ["Tome", "Beautiful.ai", "SlideBean"],
+    "bestFor": "商务人士、教师、学生、快速制作演示",
+    "notFor": "需要复杂动画、高度定制设计",
+    "pricingNotes": "免费版有生成限制，Pro版$18/月无限生成"
   },
   {
     "id": "tome",
@@ -44,6 +56,8 @@
     "description": "Tome是新型AI演示工具，将叙事与动态视觉结合，适合讲故事的品牌和创作者。",
     "features": ["AI生成内容", "Figma集成", "3D对象", "嵌入视频", "在线协作"],
     "useCases": ["品牌故事", "创业路演", "产品介绍", "个人作品集", "教学展示"],
+    "pros": ["视觉效果出众", "叙事体验好", "3D元素丰富", "Figma集成", "AI生成能力强"],
+    "cons": ["不如PPT功能全面", "导出格式有限", "学习曲线存在", "中文支持一般"],
     "pricing": "freemium",
     "website": "https://tome.so",
     "logo": "📖",
@@ -51,7 +65,11 @@
     "platform": ["web"],
     "language": ["中文", "英文"],
     "featured": false,
-    "updatedAt": "2026-02-20"
+    "updatedAt": "2026-02-20",
+    "alternatives": ["Gamma", "Pitch", "Slidebean"],
+    "bestFor": "创业者、品牌讲故事、产品介绍、创意展示",
+    "notFor": "传统商务汇报、需要大量数据的分析展示",
+    "pricingNotes": "免费版有创建限制，Pro版$16/月"
   },
   {
     "id": "figma-ai",
@@ -62,6 +80,8 @@
     "description": "Figma AI将AI能力融入Figma设计工具，包括AI布局建议、图像生成、原型自动生成等。",
     "features": ["AI布局建议", "图像生成", "原型自动生成", "文案生成", "设计还原"],
     "useCases": ["UI设计", "原型制作", "团队协作", "设计系统", "移动应用"],
+    "pros": ["与Figma无缝集成", "原型生成快", "设计系统支持好", "社区资源丰富", "团队协作最强"],
+    "cons": ["需要Figma订阅", "AI功能相对有限", "不是独立产品", "学习Figma本身有成本"],
     "pricing": "paid",
     "website": "https://figma.com",
     "logo": "🎨",
@@ -69,7 +89,11 @@
     "platform": ["web"],
     "language": ["中文", "英文"],
     "featured": false,
-    "updatedAt": "2026-03-01"
+    "updatedAt": "2026-03-01",
+    "alternatives": ["Sketch", "Adobe XD", "Canva"],
+    "bestFor": "UI设计师、产品经理、UX团队",
+    "notFor": "非设计背景用户、快速简单设计",
+    "pricingNotes": "需要Figma Professional或Organization订阅"
   },
   {
     "id": "uizard",
@@ -80,6 +104,8 @@
     "description": "Uizard可以将手绘线框图、截图直接转换为可编辑的UI设计稿，大幅提升设计效率。",
     "features": ["草图转UI", "截图转设计", "AI主题生成", "组件识别", "多平台输出"],
     "useCases": ["UI设计", "移动应用", "网页设计", "快速原型", "设计交接"],
+    "pros": ["草图转UI创新独特", "速度极快", "免费版可用", "支持多截图来源", "支持多平台输出"],
+    "cons": ["复杂设计处理能力有限", "设计精确度有时不足", "自定义程度有限", "中文支持一般"],
     "pricing": "freemium",
     "website": "https://uizard.io",
     "logo": "✏️",
@@ -87,6 +113,10 @@
     "platform": ["web"],
     "language": ["中文", "英文"],
     "featured": false,
-    "updatedAt": "2026-02-25"
+    "updatedAt": "2026-02-25",
+    "alternatives": ["Figma", "Adobe XD", "Sketch"],
+    "bestFor": "产品经理、创业团队、非设计师快速原型",
+    "notFor": "专业UI设计、需要高保真设计稿",
+    "pricingNotes": "免费版每月3个项目，Pro版$19/月"
   }
 ]

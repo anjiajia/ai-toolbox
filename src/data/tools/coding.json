@@ -8,6 +8,8 @@
     "description": "GitHub Copilot是GitHub和OpenAI合作的AI编程助手，支持代码补全、注释生成、代码审查等。",
     "features": ["代码补全", "注释生成代码", "多语言支持", "IDE深度集成", "学习适应"],
     "useCases": ["日常编码", "快速原型", "学习编程", "代码审查", "Bug修复"],
+    "pros": ["代码补全质量最高", "支持所有主流语言", "IDE集成完善", "持续快速更新", "学习你代码风格"],
+    "cons": ["需要付费订阅", "有时生成错误代码", "需要联网使用", "对私人代码有隐私顾虑", "某些场景不如专用工具"],
     "pricing": "paid",
     "website": "https://github.com/features/copilot",
     "logo": "💻",
@@ -15,7 +17,11 @@
     "platform": ["web", "windows", "mac", "linux"],
     "language": ["中文", "英文", "多语言"],
     "featured": true,
-    "updatedAt": "2026-03-01"
+    "updatedAt": "2026-03-01",
+    "alternatives": ["Cursor", "Codeium", "Windsurf", "Tabnine"],
+    "bestFor": "专业开发者、需快速编码的所有场景、学习编程",
+    "notFor": "完全不想付费用户、离线开发、对AI有隐私顾虑",
+    "pricingNotes": "$10/月(个人)，$19/月(商业用户)"
   },
   {
     "id": "cursor",
@@ -26,6 +32,8 @@
     "description": "Cursor是首个AI原生代码编辑器，与AI深度协作，支持代码生成、补全、调试等。",
     "features": ["AI原生编辑", "代码生成", "多文件编辑", "调试集成", "团队共享"],
     "useCases": ["AI协作编程", "快速开发", "代码重构", "Bug修复", "代码审查"],
+    "pros": ["AI原生设计", "多文件编辑能力强", "免费版功能完整", "团队共享功能", "支持主流编程语言"],
+    "cons": ["不如VS Code生态完善", "部分功能需要订阅", "编辑器基础功能相对简单", "插件系统不如VS Code"],
     "pricing": "freemium",
     "website": "https://cursor.sh",
     "logo": "📌",
@@ -33,7 +41,11 @@
     "platform": ["windows", "mac", "linux"],
     "language": ["中文", "英文"],
     "featured": true,
-    "updatedAt": "2026-03-01"
+    "updatedAt": "2026-03-01",
+    "alternatives": ["GitHub Copilot", "Windsurf", "VS Code + Copilot"],
+    "bestFor": "追求AI协作体验的开发者、快速重构项目",
+    "notFor": "需要丰富插件生态用户、只用简单编辑器",
+    "pricingNotes": "免费版足够日常使用，Pro版$20/月含高级AI功能"
   },
   {
     "id": "windsurf",
@@ -44,14 +56,20 @@
     "description": "Windsurf是Codeium团队推出的AI编程工具，提供智能代码补全和对话式编程辅助。",
     "features": ["AI Flow", "代码补全", "多语言支持", "免费使用", "知识库集成"],
     "useCases": ["日常编程", "学习辅助", "快速开发", "代码重构", "文档生成"],
-    "pricing": "freemium",
+    "pros": ["完全免费", "代码补全流畅", "AI Flow功能创新", "支持70+语言", "轻量快速"],
+    "cons": ["不如Copilot智能", "IDE集成不如Cursor完善", "生态较新", "企业功能有限"],
+    "pricing": "free",
     "website": "https://codeium.com/windsurf",
     "logo": "🌊",
     "tags": ["编程助手", "免费", "Codeium"],
     "platform": ["windows", "mac", "linux"],
     "language": ["中文", "英文"],
     "featured": false,
-    "updatedAt": "2026-02-20"
+    "updatedAt": "2026-02-20",
+    "alternatives": ["GitHub Copilot", "Cursor", "Codeium"],
+    "bestFor": "预算有限的开发者、学生、全栈编程",
+    "notFor": "需要最高智能程度的企业用户",
+    "pricingNotes": "完全免费"
   },
   {
     "id": "replit-ai",
@@ -62,6 +80,8 @@
     "description": "Replit是云端编程平台，其AI功能支持代码生成、调试、Bug修复和项目构建。",
     "features": ["在线IDE", "AI Ghostwriter", "即时部署", "协作", "托管运行"],
     "useCases": ["云端开发", "学习编程", "快速原型", "全栈应用", "黑客马拉松"],
+    "pros": ["无需本地环境", "一键部署托管", "AI辅助强大", "社区模板丰富", "协作功能好"],
+    "cons": ["性能受网络影响", "复杂项目不如本地IDE", "免费版计算资源有限", "对大型项目支持一般"],
     "pricing": "freemium",
     "website": "https://replit.com",
     "logo": "🚀",
@@ -69,7 +89,11 @@
     "platform": ["web"],
     "language": ["中文", "英文"],
     "featured": false,
-    "updatedAt": "2026-02-15"
+    "updatedAt": "2026-02-15",
+    "alternatives": ["GitHub Codespaces", "StackBlitz", "Glitch"],
+    "bestFor": "初学者、快速原型、在线协作、需要快速部署的项目",
+    "notFor": "大型项目开发、对性能要求高的生产环境",
+    "pricingNotes": "免费版功能丰富，Pro版$15/月含更多资源"
   },
   {
     "id": "codeium",
@@ -80,6 +104,8 @@
     "description": "Codeium提供免费的AI代码补全，支持70+语言，无使用限制，是Copilot的免费替代。",
     "features": ["免费使用", "70+语言", "高速补全", "自托管选项", "多IDE支持"],
     "useCases": ["代码补全", "学习编程", "日常开发", "快速编码", "企业部署"],
+    "pros": ["完全免费无限制", "支持语言最多", "补全速度快", "可自托管保护隐私", "多IDE多平台支持"],
+    "cons": ["智能程度不如Copilot", "IDE集成不如Cursor深入", "企业功能相对简单", "长代码生成能力有限"],
     "pricing": "free",
     "website": "https://codeium.com",
     "logo": "⚡",
@@ -87,6 +113,10 @@
     "platform": ["web", "windows", "mac", "linux"],
     "language": ["中文", "英文", "多语言"],
     "featured": false,
-    "updatedAt": "2026-02-20"
+    "updatedAt": "2026-02-20",
+    "alternatives": ["GitHub Copilot", "Tabnine", "Windsurf"],
+    "bestFor": "预算有限的开发者、学生、企业内部使用",
+    "notFor": "需要Copilot级别智能的专业开发者",
+    "pricingNotes": "完全免费"
   }
 ]

@@ -8,6 +8,8 @@
     "description": "Notion AI将AI能力融入Notion笔记平台，帮助用户更高效地写作、总结、头脑风暴。",
     "features": ["AI写作助手", "内容总结", "翻译", "头脑风暴", "任务管理"],
     "useCases": ["笔记整理", "文档写作", "项目管理", "知识库", "会议记录"],
+    "pros": ["与Notion无缝集成", "知识管理能力强", "模板丰富", "团队协作好", "AI功能实用"],
+    "cons": ["需要Notion订阅", "AI单独付费", "离线能力弱", "中文AI体验一般", "知识库大了搜索有时慢"],
     "pricing": "paid",
     "website": "https://notion.so",
     "logo": "📝",
@@ -15,7 +17,11 @@
     "platform": ["web", "ios", "android", "windows", "mac"],
     "language": ["中文", "英文"],
     "featured": true,
-    "updatedAt": "2026-03-01"
+    "updatedAt": "2026-03-01",
+    "alternatives": ["Obsidian AI", "Roam Research", "Logseq"],
+    "bestFor": "知识管理者、内容创作者、团队协作、项目管理",
+    "notFor": "纯离线使用、快速简单笔记",
+    "pricingNotes": "Plus版$10/人/月，AI功能额外$10/人/月"
   },
   {
     "id": "grammarly",
@@ -26,6 +32,8 @@
     "description": "Grammarly是领先的AI写作辅助工具，专注于英语语法检查、风格优化和语气调整。",
     "features": ["语法检查", "拼写纠错", "风格建议", "语气检测", "多平台集成"],
     "useCases": ["英文写作", "邮件撰写", "论文检查", "商务沟通", "社交发帖"],
+    "pros": ["语法纠错最准确", "多平台覆盖", "实时纠错", "风格建议专业", "浏览器插件方便"],
+    "cons": ["主要支持英文", "免费版功能有限", "高级功能付费", "有时过于保守", "对创意写作帮助有限"],
     "pricing": "freemium",
     "website": "https://grammarly.com",
     "logo": "✏️",
@@ -33,7 +41,11 @@
     "platform": ["web", "windows", "mac"],
     "language": ["英文"],
     "featured": false,
-    "updatedAt": "2026-02-20"
+    "updatedAt": "2026-02-20",
+    "alternatives": ["LanguageTool", "ProWritingAid", "Ginger"],
+    "bestFor": "英语写作、商务沟通、学术论文、英文邮件",
+    "notFor": "中文写作、创意写作、离线使用",
+    "pricingNotes": "免费版基础纠错，Premium版$12/月"
   },
   {
     "id": "perplexity",
@@ -42,8 +54,10 @@
     "category": "productivity",
     "tagline": "AI搜索引擎，回答问题并附来源",
     "description": "Perplexity是AI驱动的搜索引擎，可以回答问题并提供相关来源链接，是研究的好帮手。",
-    "features": ["AI搜索", "来源引用", "追问跟进", "图像搜索", " Collections整理"],
+    "features": ["AI搜索", "来源引用", "追问跟进", "图像搜索", "Collections整理"],
     "useCases": ["信息检索", "学术研究", "竞品分析", "技术调研", "新闻追踪"],
+    "pros": ["直接给出答案而非链接", "来源可信", "支持追问", "图像搜索强大", "免费版已很强"],
+    "cons": ["有时给出错误信息", "中文信息来源有限", "学术引用需核实", "专业领域深度不够"],
     "pricing": "freemium",
     "website": "https://perplexity.ai",
     "logo": "🔍",
@@ -51,7 +65,11 @@
     "platform": ["web", "ios", "android"],
     "language": ["中文", "英文"],
     "featured": true,
-    "updatedAt": "2026-03-01"
+    "updatedAt": "2026-03-01",
+    "alternatives": ["ChatGPT", "Google", "Bing AI"],
+    "bestFor": "学术研究、信息检索、快速了解新领域",
+    "notFor": "需要深度专业分析、事实性要求极高的场景",
+    "pricingNotes": "免费版已很强，Pro版$20/月含更多配额和GPT-4"
   },
   {
     "id": "otter",
@@ -62,6 +80,8 @@
     "description": "Otter.ai提供AI会议转录服务，自动生成会议记录、总结和行动项。",
     "features": ["实时转录", "自动摘要", "说话人识别", "行动项提取", "日历集成"],
     "useCases": ["会议记录", "访谈转录", "讲座笔记", "远程会议", "团队协作"],
+    "pros": ["转录准确率较高", "自动生成摘要", "行动项提取", "日历自动同步", "团队共享方便"],
+    "cons": ["免费版限制严格", "中文转录一般", "需要麦克风权限", "多人会议有时识别不准", "专业版价格偏高"],
     "pricing": "freemium",
     "website": "https://otter.ai",
     "logo": "🦦",
@@ -69,7 +89,11 @@
     "platform": ["web", "ios", "android"],
     "language": ["中文", "英文"],
     "featured": false,
-    "updatedAt": "2026-02-15"
+    "updatedAt": "2026-02-15",
+    "alternatives": ["Fireflies.ai", "Tactiq", "Zoom AI Companion"],
+    "bestFor": "商务会议、访谈记录、远程团队、在线课程",
+    "notFor": "纯中文会议、嘈杂环境、离线使用",
+    "pricingNotes": "免费版每月300分钟，Pro版$20/月含无限分钟"
   },
   {
     "id": "mem",
@@ -80,6 +104,8 @@
     "description": "Mem是AI知识管理工具，自动将笔记、文档、链接等内容智能分类和组织。",
     "features": ["自动整理", "智能标签", "全文搜索", "日历集成", "团队空间"],
     "useCases": ["知识管理", "笔记整理", "项目资料", "个人CRM", "团队协作"],
+    "pros": ["AI自动分类", "搜索极快", "界面简洁", "与其他工具集成好", "知识网络构建"],
+    "cons": ["生态不如Notion丰富", "离线能力有限", "免费版功能受限", "中文支持弱"],
     "pricing": "freemium",
     "website": "https://get.mem.ai",
     "logo": "🧠",
@@ -87,6 +113,10 @@
     "platform": ["web", "ios", "android"],
     "language": ["中文", "英文"],
     "featured": false,
-    "updatedAt": "2026-02-20"
+    "updatedAt": "2026-02-20",
+    "alternatives": ["Notion", "Obsidian", "Roam Research"],
+    "bestFor": "知识工作者、项目资料管理、团队知识库",
+    "notFor": "需要丰富模板和生态的用户",
+    "pricingNotes": "免费版功能有限，Pro版$10/月"
   }
 ]

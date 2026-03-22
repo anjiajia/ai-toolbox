@@ -1,9 +1,9 @@
 import { MetadataRoute } from 'next';
 import { getAllTools } from '@/lib/tools';
 import { getAllCategories } from '@/lib/categories';
-import categoriesData from '@/data/categories.json';
+import freeToolsData from '@/data/free-tools.json';
 
-const BASE_URL = 'https://ai-toolbox.example.com';
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://ai-toolbox.example.com';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const categories = getAllCategories();
@@ -23,16 +23,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const categoryPages: MetadataRoute.Sitemap = categories.map((cat) => ({
     url: `${BASE_URL}/tools/${cat.slug}`,
     lastModified: new Date(),
-    changeFrequency: 'daily',
+    changeFrequency: 'daily' as const,
     priority: 0.9,
   }));
 
   const toolPages: MetadataRoute.Sitemap = tools.map((tool) => ({
     url: `${BASE_URL}/tools/${tool.category}/${tool.slug}`,
     lastModified: new Date(tool.updatedAt),
-    changeFrequency: 'weekly',
+    changeFrequency: 'weekly' as const,
     priority: 0.7,
   }));
 
-  return [...staticPages, ...categoryPages, ...toolPages];
+  const freeToolPages: MetadataRoute.Sitemap = freeToolsData.map((tool) => ({
+    url: `${BASE_URL}/free-tools/${tool.slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.6,
+  }));
+
+  return [...staticPages, ...categoryPages, ...toolPages, ...freeToolPages];
 }

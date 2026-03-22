@@ -10,6 +10,8 @@ export interface Tool {
   description: string;
   features: string[];
   useCases: string[];
+  pros: string[];
+  cons: string[];
   pricing: Pricing;
   website: string;
   logo: string;
@@ -18,6 +20,10 @@ export interface Tool {
   language: string[];
   featured?: boolean;
   updatedAt: string;
+  alternatives?: string[];
+  bestFor?: string;
+  notFor?: string;
+  pricingNotes?: string;
 }
 
 export interface FreeTool {
@@ -30,4 +36,7 @@ export interface FreeTool {
   category: string;
   howToUse: string;
   example?: string;
+  features?: string[];
+  useCases?: string[];
+  faq?: { q: string; a: string }[];
 }

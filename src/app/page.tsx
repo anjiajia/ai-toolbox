@@ -6,6 +6,30 @@ import Container from '@/components/layout/container';
 import AdSlot from '@/components/common/ad-slot';
 import { getFeaturedTools, getAllTools } from '@/lib/tools';
 import { getAllCategories } from '@/lib/categories';
+import type { Metadata } from 'next';
+
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://ai-toolbox.example.com';
+
+export const metadata: Metadata = {
+  title: {
+    absolute: 'AI工具箱 - 发现最新AI工具 | AI工具导航',
+  },
+  description: 'AI工具箱收录全球优质AI工具，涵盖AI写作、图像生成、视频制作、编程开发、办公效率等8大分类。每日更新，帮助你发现最新AI生产力工具，提升工作效率。',
+  keywords: [
+    'AI工具', 'AI导航', 'AI工具箱', '人工智能', 'AI写作', 'AI图像', 'AI视频',
+    'AI编程', 'AI办公', 'AI营销', 'AI设计', 'AI音频', 'AI工具推荐',
+    'best AI tools', 'AI tools free', 'AI软件', '人工智能软件',
+  ],
+  openGraph: {
+    title: 'AI工具箱 - 发现最新AI工具 | AI工具导航',
+    description: '收录全球优质AI工具，涵盖写作、图像、视频、编程等领域。每日更新，完全免费使用。',
+    type: 'website',
+    images: ['/og-image.png'],
+  },
+  alternates: {
+    canonical: BASE_URL,
+  },
+};
 
 export default function HomePage() {
   const featuredTools = getFeaturedTools().slice(0, 6);
@@ -44,12 +68,26 @@ export default function HomePage() {
         </Container>
       </section>
 
-      {/* Ad Slot */}
-      <Container>
-        <div className="my-8">
-          <AdSlot className="h-24" />
-        </div>
-      </Container>
+      {/* SEO Content Block */}
+      <section className="py-12 bg-white border-b border-zinc-200">
+        <Container>
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-2xl font-bold text-zinc-900 mb-4">为什么选择AI工具箱？</h2>
+            <p className="text-zinc-600 leading-relaxed mb-6">
+              AI工具箱致力于为你筛选全球最优质的AI工具。我们对每个工具进行深度评测，
+              涵盖功能、价格、优缺点和适用场景，帮助你在众多选择中找到最适合自己的解决方案。
+              无论是AI写作、图像生成、视频制作还是编程开发，这里都能找到提升效率的最佳工具。
+            </p>
+            <div className="flex flex-wrap justify-center gap-6 text-sm text-zinc-500">
+              <span>✅ 40+ 收录工具</span>
+              <span>✅ 8 大分类</span>
+              <span>✅ 每日更新</span>
+              <span>✅ 免费使用</span>
+              <span>✅ 6 大免费工具</span>
+            </div>
+          </div>
+        </Container>
+      </section>
 
       {/* Featured Tools */}
       <section className="py-12">
@@ -64,7 +102,7 @@ export default function HomePage() {
 
       {/* Ad Slot */}
       <Container>
-        <div className="my-8">
+        <div className="my-4">
           <AdSlot className="h-24" />
         </div>
       </Container>
@@ -118,6 +156,13 @@ export default function HomePage() {
         </Container>
       </section>
 
+      {/* Ad Slot */}
+      <Container>
+        <div className="my-4">
+          <AdSlot className="h-24" />
+        </div>
+      </Container>
+
       {/* Categories Overview */}
       <section className="py-12 bg-white">
         <Container>
@@ -141,9 +186,36 @@ export default function HomePage() {
         </Container>
       </section>
 
+      {/* SEO Content */}
+      <section className="py-12 border-t border-zinc-200">
+        <Container>
+          <div className="max-w-3xl mx-auto prose prose-zinc">
+            <h2 className="text-2xl font-bold text-zinc-900 mb-4 text-center">如何使用AI工具箱找到适合自己的AI工具</h2>
+            <div className="text-zinc-700 leading-relaxed space-y-4">
+              <p>
+                AI工具箱收录了涵盖8大分类的优质AI工具，包括AI写作（如ChatGPT、Claude、Jasper）、
+                AI图像（Midjourney、DALL-E、Leonardo AI）、AI视频（Runway、Synthesia、Kling）、
+                AI音频（ElevenLabs、Suno、Descript）、AI编程（GitHub Copilot、Cursor、Codeium）、
+                AI办公（Notion AI、Grammarly、Perplexity）、AI设计（Canva AI、Gamma、Uizard）、
+                AI营销（Surfer SEO、AdCreative.ai、Ocoya）。
+              </p>
+              <p>
+                每个工具详情页都包含详细的功能介绍、优缺点分析、价格说明和替代工具推荐，
+                帮助你全面了解后再做决定。我们还提供6个完全免费的在线工具，
+                包括Prompt优化器、JSON格式化器、Markdown转换器等，无需注册，打开即可使用。
+              </p>
+              <p>
+                持续关注AI工具箱，我们会不断收录最新的AI工具，更新产品评测，
+                帮助你在AI浪潮中始终站在前沿。
+              </p>
+            </div>
+          </div>
+        </Container>
+      </section>
+
       {/* Final Ad */}
       <Container>
-        <div className="my-8">
+        <div className="my-4">
           <AdSlot className="h-24" />
         </div>
       </Container>

@@ -8,6 +8,8 @@
     "description": "ChatGPT是OpenAI开发的对话式AI助手，可以帮助你写作、回答问题、代码调试、学习辅导等。是目前最流行的AI工具之一。",
     "features": ["对话式交互", "多语言支持", "代码编写和调试", "文章写作润色", "知识问答"],
     "useCases": ["写作辅助", "编程问题解答", "学习辅导", "创意头脑风暴", "邮件撰写"],
+    "pros": ["对话流畅自然，理解能力强", "知识覆盖面广，信息量大", "免费版本已经很强", "插件生态丰富", "多端同步"],
+    "cons": ["中文语境有时不够精准", "最新信息可能有延迟", "长文本处理有时会中断", "需要科学上网"],
     "pricing": "freemium",
     "website": "https://chat.openai.com",
     "logo": "🤖",
@@ -15,7 +17,11 @@
     "platform": ["web", "ios", "android"],
     "language": ["中文", "英文"],
     "featured": true,
-    "updatedAt": "2026-03-01"
+    "updatedAt": "2026-03-01",
+    "alternatives": ["Claude", "Gemini", "Perplexity"],
+    "bestFor": "日常对话、知识问答、写作辅助、编程入门",
+    "notFor": "需要实时数据的金融分析、高度专业医疗建议、法律文件撰写",
+    "pricingNotes": "免费版使用GPT-3.5，付费版ChatGPT Plus($20/月)可以使用GPT-4和最新模型"
   },
   {
     "id": "claude",
@@ -26,6 +32,8 @@
     "description": "Claude是Anthropic开发的AI助手，以安全性著称，特别擅长处理长文档分析、写作和对话。",
     "features": ["超长上下文窗口", "文档分析", "写作助手", "代码审查", "安全性高"],
     "useCases": ["长文本书写", "文档总结", "代码审查", "创意写作", "学术研究"],
+    "pros": ["超长上下文(200K token)", "长文档分析能力强", "安全性高，有道德边界", "写作风格自然", "支持文件上传分析"],
+    "cons": ["中文能力弱于英文", "实时信息能力有限", "图像理解需要订阅Pro"],
     "pricing": "freemium",
     "website": "https://claude.ai",
     "logo": "🧠",
@@ -33,7 +41,11 @@
     "platform": ["web", "ios"],
     "language": ["中文", "英文"],
     "featured": true,
-    "updatedAt": "2026-03-01"
+    "updatedAt": "2026-03-01",
+    "alternatives": ["ChatGPT", "Gemini", "Perplexity"],
+    "bestFor": "长文档分析、书籍总结、代码审查、学术写作",
+    "notFor": "需要实时新闻资讯、快速简单问答",
+    "pricingNotes": "免费版Claude 2.1，付费版Claude Pro($20/月)可以使用最新模型和更大上下文"
   },
   {
     "id": "jasper",
@@ -44,6 +56,8 @@
     "description": "Jasper是专业的AI营销文案工具，支持50多种内容模板，帮助企业快速生成高质量营销内容。",
     "features": ["50+内容模板", "品牌声音定制", "多语言翻译", "SEO优化", "团队协作"],
     "useCases": ["营销文案", "社交媒体内容", "博客文章", "邮件营销", "广告文案"],
+    "pros": ["模板丰富，覆盖面广", "品牌一致性管理强", "支持25+语言", "SEO集成好", "团队协作功能完善"],
+    "cons": ["价格较高", "需要学习模板用法", "创意有限，模板化明显", "国内访问不稳定"],
     "pricing": "paid",
     "website": "https://jasper.ai",
     "logo": "✍️",
@@ -51,7 +65,11 @@
     "platform": ["web"],
     "language": ["中文", "英文", "多语言"],
     "featured": false,
-    "updatedAt": "2026-02-15"
+    "updatedAt": "2026-02-15",
+    "alternatives": ["Copy.ai", "Writesonic", "Anyword"],
+    "bestFor": "企业营销团队、批量内容生产、品牌文案",
+    "notFor": "个人博主、小团队、预算有限用户",
+    "pricingNotes": "Business计划$49/月起，按年付费有折扣"
   },
   {
     "id": "copy-ai",
@@ -62,6 +80,8 @@
     "description": "Copy.ai专注于帮助用户快速创建高转化率的营销文案，适用于各种商业场景。",
     "features": ["90+文案工具", "品牌语调定制", "多语言支持", "一键生成", "工作流自动化"],
     "useCases": ["销售文案", "社交媒体", "邮件主题", "产品描述", "广告文案"],
+    "pros": ["90多种文案工具", "操作简单上手快", "支持多语言", "有中文界面", "Freemium模式友好"],
+    "cons": ["生成内容有时重复", "深度定制能力弱", "长文案质量下降"],
     "pricing": "freemium",
     "website": "https://copy.ai",
     "logo": "📝",
@@ -69,7 +89,11 @@
     "platform": ["web"],
     "language": ["中文", "英文", "多语言"],
     "featured": false,
-    "updatedAt": "2026-02-10"
+    "updatedAt": "2026-02-10",
+    "alternatives": ["Jasper", "Writesonic", "Anyword"],
+    "bestFor": "销售团队、电商卖家、小企业主",
+    "notFor": "需要深度内容策略的长篇文章",
+    "pricingNotes": "免费版每月2000词，Pro版$36/月无限词"
   },
   {
     "id": "writesonic",
@@ -80,6 +104,8 @@
     "description": "Writesonic结合AI和SEO技术，帮助用户创建搜索引擎友好的内容，同时保证文章质量。",
     "features": ["AI文章写作", "SEO优化建议", "Chatsonic对话", "Botsonic客服机器人", "多语言"],
     "useCases": ["SEO文章", "博客内容", "产品描述", "落地页文案", "问答生成"],
+    "pros": ["SEO集成好", "文章质量较高", "有对话式AI", "多语言支持", "价格相对实惠"],
+    "cons": ["长文本需要订阅高级版", "部分功能需要额外付费", "免费额度较少"],
     "pricing": "freemium",
     "website": "https://writesonic.com",
     "logo": "🖊️",
@@ -87,6 +113,10 @@
     "platform": ["web"],
     "language": ["中文", "英文", "多语言"],
     "featured": false,
-    "updatedAt": "2026-02-20"
+    "updatedAt": "2026-02-20",
+    "alternatives": ["Jasper", "Copy.ai", "Rytr"],
+    "bestFor": "内容营销者、SEO从业者、博主",
+    "notFor": "纯创意写作、学术写作",
+    "pricingNotes": "免费试用，付费计划$12/月起"
   }
 ]

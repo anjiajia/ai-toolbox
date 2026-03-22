@@ -1,0 +1,66 @@
+[
+  {
+    "id": "writing",
+    "name": "AI 写作",
+    "slug": "writing",
+    "description": "AI写作工具可以帮助你快速生成文章、博客、社交媒体内容、营销文案等，提升写作效率。",
+    "icon": "✍️",
+    "count": 5
+  },
+  {
+    "id": "image",
+    "name": "AI 图像",
+    "slug": "image",
+    "description": "AI图像生成工具可以将文字描述转化为图片，或对现有图片进行编辑和优化。",
+    "icon": "🎨",
+    "count": 5
+  },
+  {
+    "id": "video",
+    "name": "AI 视频",
+    "slug": "video",
+    "description": "AI视频生成和编辑工具，帮助你快速制作高质量视频内容。",
+    "icon": "🎬",
+    "count": 5
+  },
+  {
+    "id": "audio",
+    "name": "AI 音频",
+    "slug": "audio",
+    "description": "AI语音合成、音乐生成、音频编辑工具，打造专业音频内容。",
+    "icon": "🎧",
+    "count": 5
+  },
+  {
+    "id": "coding",
+    "name": "AI 编程",
+    "slug": "coding",
+    "description": "AI编程助手帮助你编写代码、调试程序、代码审查，提升开发效率。",
+    "icon": "💻",
+    "count": 5
+  },
+  {
+    "id": "productivity",
+    "name": "AI 办公",
+    "slug": "productivity",
+    "description": "AI办公工具帮助你处理文档、会议记录、信息整理等工作。",
+    "icon": "⚡",
+    "count": 5
+  },
+  {
+    "id": "design",
+    "name": "AI 设计",
+    "slug": "design",
+    "description": "AI设计工具帮助你快速创建设计作品、PPT演示文稿等视觉内容。",
+    "icon": "🖼️",
+    "count": 5
+  },
+  {
+    "id": "marketing",
+    "name": "AI 营销",
+    "slug": "marketing",
+    "description": "AI营销工具帮助你进行SEO优化、内容营销、社交媒体管理等。",
+    "icon": "📈",
+    "count": 5
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "prompt-optimizer",
+    "slug": "prompt-optimizer",
+    "name": "AI Prompt 优化器",
+    "tagline": "输入粗糙想法，输出精准AI提示词",
+    "description": "将你的模糊想法转化为高质量的AI提示词，提升ChatGPT、Claude等AI工具的输出质量。",
+    "emoji": "💡",
+    "category": "writing",
+    "howToUse": "在输入框中描述你想让AI帮你完成的任务或问题，点击生成按钮获得优化后的提示词。",
+    "example": "输入：帮我写一封道歉邮件 → 输出：请帮我写一封专业道歉邮件，用于回复客户投诉，表达歉意的同时说明解决方案，语气诚恳但不卑微，控制在200字以内。"
+  },
+  {
+    "id": "json-formatter",
+    "slug": "json-formatter",
+    "name": "JSON 格式化器",
+    "tagline": "粘贴JSON代码，自动格式化高亮显示",
+    "description": "在线格式化JSON代码，支持美化、压缩、校验和语法高亮。",
+    "emoji": "🔧",
+    "category": "coding",
+    "howToUse": "粘贴任意JSON代码，点击格式化按钮即可获得美化后的结果，支持复制和下载。",
+    "example": "输入：{\"name\":\"test\",\"value\":123} → 输出：带缩进和语法高亮的格式化JSON"
+  },
+  {
+    "id": "markdown-to-html",
+    "slug": "markdown-to-html",
+    "name": "Markdown → HTML 转换器",
+    "tagline": "Markdown语法实时转HTML代码",
+    "description": "实时将Markdown语法转换为HTML代码，支持预览和一键复制。",
+    "emoji": "📄",
+    "category": "coding",
+    "howToUse": "在左侧输入Markdown文本，右侧实时显示渲染结果和HTML源代码。",
+    "example": "输入：## 标题 → 输出：<h2>标题</h2>"
+  },
+  {
+    "id": "word-counter",
+    "slug": "word-counter",
+    "name": "字数统计器",
+    "tagline": "中英文分开统计，支持SEO分析",
+    "description": "统计文本字数、字符数、段落数、句子数，同时给出SEO关键词密度分析。",
+    "emoji": "📝",
+    "category": "writing",
+    "howToUse": "输入或粘贴文本，实时显示各类统计指标。",
+    "example": "输入Hello World! 你好！→ 统计：英文词数2，中文字数2，总字符数14"
+  },
+  {
+    "id": "title-generator",
+    "slug": "title-generator",
+    "name": "标题生成器",
+    "tagline": "输入关键词，生成吸引眼球的文章标题",
+    "description": "为博客文章、社交媒体、视频等场景生成多种风格的标题选项。",
+    "emoji": "✍️",
+    "category": "writing",
+    "howToUse": "输入文章主题或关键词，选择标题风格，点击生成多个标题选项。",
+    "example": "输入：AI写作工具 → 输出：[AI写作工具Top10测评]、[用了这些AI写作神器，我的工作效率提升了3倍]、[2026年最值得尝试的AI写作工具盘点]"
+  },
+  {
+    "id": "color-palette",
+    "slug": "color-palette",
+    "name": "配色方案生成器",
+    "tagline": "输入品牌色，自动生成完整配色方案",
+    "description": "基于一个主色自动生成完整的配色方案，包括主色、辅色、背景色、文字色等。",
+    "emoji": "🎨",
+    "category": "design",
+    "howToUse": "输入颜色代码（HEX/RGB）或使用取色器选择主色，一键生成5-8个配色的完整方案。",
+    "example": "输入：#3B82F6 → 输出：主色#3B82F6, 深色#1E40AF, 浅色#93C5FD, 背景#EFF6FF, 文字#1E3A8A"
+  }
+]

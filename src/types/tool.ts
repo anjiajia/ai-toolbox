@@ -24,6 +24,14 @@ export interface Tool {
   bestFor?: string;
   notFor?: string;
   pricingNotes?: string;
+  /** 评分 (1-5) */
+  rating?: number;
+  /** 评价数量 */
+  reviewCount?: number;
+  /** 最后验证时间 (YYYY-MM-DD) */
+  lastVerified?: string;
+  /** 是否为联盟/赞助链接 */
+  affiliate?: boolean;
 }
 
 export interface FreeTool {
@@ -39,4 +47,10 @@ export interface FreeTool {
   features?: string[];
   useCases?: string[];
   faq?: { q: string; a: string }[];
+  /** 评分 (1-5) */
+  rating?: number;
+  /** 使用次数 */
+  usageCount?: number;
+  /** 是否精选 */
+  featured?: boolean;
 }

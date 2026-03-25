@@ -12,6 +12,7 @@ import {
   SoftwareAppJsonLd,
   FAQJsonLd,
 } from '@/components/common/json-ld';
+import { HowToJsonLd, generateHowToSteps } from '@/components/common/howto-schema';
 import { getToolBySlug, getRelatedTools, getAllTools } from '@/lib/tools';
 import { getCategoryBySlug } from '@/lib/categories';
 import { getPricingLabel, getPricingColor } from '@/lib/utils';
@@ -90,6 +91,12 @@ export default async function ToolDetailPage({ params }: Props) {
       />
       <SoftwareAppJsonLd tool={tool} baseUrl={BASE_URL} />
       <FAQJsonLd questions={faqItems} />
+      <HowToJsonLd
+        name={`如何使用${tool.name}`}
+        description={`${tool.tagline} - ${tool.description.slice(0, 100)}`}
+        steps={generateHowToSteps(tool)}
+        baseUrl={BASE_URL}
+      />
 
       <div className="py-8">
         <Breadcrumbs

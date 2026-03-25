@@ -4,7 +4,7 @@
     "slug": "prompt-optimizer",
     "name": "AI Prompt 优化器",
     "tagline": "输入粗糙想法，输出精准AI提示词",
-    "description": "将你的模糊想法转化为高质量的AI提示词，提升ChatGPT、Claude等AI工具的输出质量。",
+    "description": "将你的模糊想法转化为高质量的AI提示词，提升ChatGPT、Claude等AI工具的输出质量。非常适合不知道如何写好提示词的用户，让AI输出更精准。",
     "emoji": "💡",
     "category": "writing",
     "howToUse": "在输入框中描述你想让AI帮你完成的任务或问题，点击生成按钮获得优化后的提示词。",
@@ -15,14 +15,17 @@
       { "q": "优化后的提示词适用于哪些AI工具？", "a": "通用的结构化提示词适用于ChatGPT、Claude、Gemini等主流对话AI工具。" },
       { "q": "需要注册账号才能使用吗？", "a": "完全免费，无需注册，直接使用。" },
       { "q": "提示词优化需要收费吗？", "a": "本工具完全免费使用，不收取任何费用。" }
-    ]
+    ],
+    "rating": 4.8,
+    "usageCount": 12580,
+    "featured": true
   },
   {
     "id": "json-formatter",
     "slug": "json-formatter",
     "name": "JSON 格式化器",
     "tagline": "粘贴JSON代码，自动格式化高亮显示",
-    "description": "在线格式化JSON代码，支持美化、压缩、校验和语法高亮。",
+    "description": "在线格式化JSON代码，支持美化、压缩、校验和语法高亮。开发者必备工具，让混乱的JSON瞬间变得可读。",
     "emoji": "🔧",
     "category": "coding",
     "howToUse": "粘贴任意JSON代码，选择格式化/压缩/校验模式，点击处理按钮。",
@@ -33,14 +36,17 @@
       { "q": "我的JSON数据安全吗？", "a": "所有处理都在浏览器本地完成，数据不会上传到任何服务器。" },
       { "q": "支持多大的JSON文件？", "a": "支持处理任意大小的JSON，建议在浏览器性能范围内使用。" },
       { "q": "格式化会改变数据内容吗？", "a": "不会，格式化只是改变缩进和换行，不改变任何数据内容。" }
-    ]
+    ],
+    "rating": 4.9,
+    "usageCount": 28430,
+    "featured": true
   },
   {
     "id": "markdown-to-html",
     "slug": "markdown-to-html",
     "name": "Markdown → HTML 转换器",
     "tagline": "Markdown语法实时转HTML代码",
-    "description": "实时将Markdown语法转换为HTML代码，支持预览。",
+    "description": "实时将Markdown语法转换为HTML代码，支持预览。写完Markdown就能看到最终效果，写博客和文档的效率神器。",
     "emoji": "📄",
     "category": "coding",
     "howToUse": "在左侧输入Markdown文本，右侧实时显示HTML输出和预览效果。",
@@ -51,14 +57,17 @@
       { "q": "支持所有Markdown语法吗？", "a": "支持标题、列表、粗体、斜体、代码块、链接、图片等主流语法。" },
       { "q": "转换后的HTML可以直接商用吗？", "a": "可以，转换结果完全属于你，无任何使用限制。" },
       { "q": "表格语法支持吗？", "a": "基础表格语法支持，部分复杂表格可能需要手动调整。" }
-    ]
+    ],
+    "rating": 4.7,
+    "usageCount": 15820,
+    "featured": false
   },
   {
     "id": "word-counter",
     "slug": "word-counter",
     "name": "字数统计器",
     "tagline": "中英文分开统计，支持SEO分析",
-    "description": "统计文本字数、字符数、段落数、句子数，同时给出SEO关键词分析。",
+    "description": "统计文本字数、字符数、段落数、句子数，同时给出SEO关键词分析。写作者和SEO从业者的必备工具。",
     "emoji": "📝",
     "category": "writing",
     "howToUse": "输入或粘贴文本，实时显示各类统计指标和关键词。",
@@ -69,14 +78,17 @@
       { "q": "支持实时统计吗？", "a": "是的，输入同时实时更新统计结果，无需点击按钮。" },
       { "q": "关键词提取支持中文吗？", "a": "支持中英文关键词提取和分析。" },
       { "q": "统计数据会保存吗？", "a": "不会，所有数据仅在浏览器中处理，不会上传保存。" }
-    ]
+    ],
+    "rating": 4.5,
+    "usageCount": 9870,
+    "featured": false
   },
   {
     "id": "title-generator",
     "slug": "title-generator",
     "name": "标题生成器",
     "tagline": "输入关键词，生成吸引眼球的文章标题",
-    "description": "为博客文章、社交媒体、视频等场景生成多种风格的标题选项。",
+    "description": "为博客文章、社交媒体、视频等场景生成多种风格的标题选项。再也不用为标题绞尽脑汁了。",
     "emoji": "✍️",
     "category": "writing",
     "howToUse": "输入文章主题或关键词，选择标题风格，点击生成多个标题选项。",
@@ -87,14 +99,17 @@
       { "q": "生成标题需要收费吗？", "a": "完全免费使用，无需注册账号。" },
       { "q": "标题风格有什么区别？", "a": "列表型适合测评类内容，增长型适合吸引点击，新闻型适合资讯类内容。" },
       { "q": "可以无限生成吗？", "a": "可以无限次使用，不限制生成数量。" }
-    ]
+    ],
+    "rating": 4.6,
+    "usageCount": 8340,
+    "featured": false
   },
   {
     "id": "color-palette",
     "slug": "color-palette",
     "name": "配色方案生成器",
     "tagline": "输入品牌色，自动生成完整配色方案",
-    "description": "基于一个主色自动生成完整的配色方案，包括主色、辅色、背景色、文字色等。",
+    "description": "基于一个主色自动生成完整的配色方案，包括主色、辅色、背景色、文字色等。设计师和产品经理的配色利器。",
     "emoji": "🎨",
     "category": "design",
     "howToUse": "输入颜色代码（HEX）或使用取色器选择主色，点击生成获取完整配色方案。",
@@ -105,6 +120,9 @@
       { "q": "支持哪些颜色格式？", "a": "支持HEX格式（如#3B82F6）和RGB格式输入。" },
       { "q": "生成的配色可以直接用吗？", "a": "可以，生成的配色完全免费商用。" },
       { "q": "如何选择好的主色？", "a": "建议选择品牌主色调或产品核心颜色。" }
-    ]
+    ],
+    "rating": 4.7,
+    "usageCount": 11250,
+    "featured": true
   }
 ]

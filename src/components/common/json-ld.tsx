@@ -49,11 +49,19 @@ export function SoftwareAppJsonLd({ tool, baseUrl }: { tool: Tool; baseUrl: stri
       priceCurrency: 'USD',
       availability: 'https://schema.org/InStock',
     },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.5',
-      ratingCount: '100',
-    },
+    ...(tool.rating && tool.reviewCount ? {
+      aggregateRating: {
+        '@type': 'AggregateRating',
+        ratingValue: String(tool.rating),
+        ratingCount: String(tool.reviewCount),
+      },
+    } : {
+      aggregateRating: {
+        '@type': 'AggregateRating',
+        ratingValue: '4.5',
+        ratingCount: '100',
+      },
+    }),
     screenshot: `${baseUrl}/og-image.png`,
   };
 

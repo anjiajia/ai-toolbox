@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import type { Tool } from '@/types/tool';
 import { getPricingLabel, getPricingColor } from '@/lib/utils';
+import { TrustBadge } from './trust-badges';
 
 interface ToolCardProps {
   tool: Tool;
@@ -31,6 +32,17 @@ export default function ToolCard({ tool }: ToolCardProps) {
               </span>
             ))}
           </div>
+          {(tool.lastVerified || tool.rating || tool.affiliate) && (
+            <div className="mt-2">
+              <TrustBadge
+                lastVerified={tool.lastVerified}
+                rating={tool.rating}
+                reviewCount={tool.reviewCount}
+                affiliate={tool.affiliate}
+                size="sm"
+              />
+            </div>
+          )}
         </div>
       </div>
     </Link>

@@ -1,0 +1,109 @@
+# AI工具箱 - LLM 可读站点说明
+
+## 站点概述
+
+AI工具箱（AI-Toolbox）是一个专业的AI工具导航网站，收录全球优质AI工具，帮助用户发现和选择适合的AI生产力工具。
+
+- **站点URL**: https://ai-toolbox.example.com（生产环境请配置 NEXT_PUBLIC_SITE_URL）
+- **语言**: 中文为主
+- **内容领域**: AI写作、AI图像、AI视频、AI音频、AI编程、AI办公、AI设计、AI营销
+
+## 数据存储位置
+
+所有工具数据存储在 `/src/data/tools/` 目录下的 JSON 文件中：
+
+| 文件 | 分类 |
+|------|------|
+| `/src/data/tools/writing.json` | AI写作 |
+| `/src/data/tools/image.json` | AI图像 |
+| `/src/data/tools/video.json` | AI视频 |
+| `/src/data/tools/audio.json` | AI音频 |
+| `/src/data/tools/coding.json` | AI编程 |
+| `/src/data/tools/productivity.json` | AI办公 |
+| `/src/data/tools/design.json` | AI设计 |
+| `/src/data/tools/marketing.json` | AI营销 |
+
+分类元数据：`/src/data/categories.json`
+免费工具数据：`/src/data/free-tools.json`
+
+## 工具数据结构（Tool 类型）
+
+每个工具对象包含以下字段：
+
+```typescript
+interface Tool {
+  id: string;           // 唯一标识
+  slug: string;         // URL slug
+  name: string;         // 工具名称
+  category: string;     // 分类slug（writing|image|video|audio|coding|productivity|design|marketing）
+  tagline: string;      // 一句话描述
+  description: string; // 详细描述（建议2-3句答案+详细说明）
+  features: string[];  // 核心功能列表
+  useCases: string[];   // 适用场景列表
+  pros: string[];       // 优点列表
+  cons: string[];       // 缺点列表
+  pricing: 'free' | 'freemium' | 'paid' | 'contact';  // 定价模式
+  website: string;      // 官网URL
+  logo: string;         // emoji图标
+  tags: string[];       // 标签
+  platform: Platform[]; // 支持平台
+  language: string[];   // 支持语言
+  featured?: boolean;   // 是否精选
+  updatedAt: string;   // 最后更新时间 (YYYY-MM-DD)
+  alternatives?: string[];  // 替代工具
+  bestFor?: string;     // 最佳适用场景
+  notFor?: string;      // 不适合场景
+  pricingNotes?: string; // 定价说明
+  rating?: number;      // 评分 (1-5)
+  reviewCount?: number; // 评价数量
+  lastVerified?: string; // 最后验证时间 (YYYY-MM-DD)
+  affiliate?: boolean;  // 是否为联盟/赞助链接
+}
+```
+
+## 页面路由结构
+
+| 路径 | 说明 |
+|------|------|
+| `/` | 首页 |
+| `/tools/[category]` | 分类页（如 `/tools/coding`） |
+| `/tools/[category]/[slug]` | 工具详情页（如 `/tools/coding/github-copilot`） |
+| `/free-tools` | 免费工具列表 |
+| `/free-tools/[slug]` | 免费工具详情页 |
+| `/search` | 搜索页 |
+| `/submit` | 提交工具页 |
+| `/about` | 关于页面 |
+| `/contact` | 联系页面 |
+| `/compare` | 工具对比页 |
+| `/privacy` | 隐私政策 |
+| `/terms` | 使用条款 |
+
+## 核心库函数（src/lib/tools.ts）
+
+```typescript
+getAllTools(): Tool[]                    // 获取所有工具
+getToolsByCategory(category: string): Tool[]  // 按分类获取
+getToolBySlug(category, slug): Tool | undefined  // 获取单个工具
+getFeaturedTools(): Tool[]               // 获取精选工具
+searchTools(query: string): Tool[]       // 搜索工具
+getRelatedTools(tool, limit?): Tool[]    // 获取相关工具
+```
+
+## 分类信息库（src/lib/categories.ts）
+
+```typescript
+getAllCategories(): Category[]           // 获取所有分类
+getCategoryBySlug(slug): Category | undefined  // 按slug获取分类
+```
+
+## SEO 和结构化数据
+
+- Sitemap: `/sitemap.ts`
+- Robots: `/robots.ts`
+- JSON-LD Schema: BreadcrumbJsonLd, SoftwareAppJsonLd, FAQJsonLd（见 `/src/components/common/json-ld.tsx`）
+- HowTo Schema: 见 `/src/components/common/howto-schema.tsx`
+
+## 数据更新机制
+
+工具网站可用性检查脚本位于 `scripts/update-check.ts`。
+数据更新日志位于 `src/data/tools/UPDATE_LOG.json`。

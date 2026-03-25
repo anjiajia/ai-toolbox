@@ -14,7 +14,15 @@ const geistMono = Geist_Mono({
   subsets: ['latin'],
 });
 
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://ai-toolbox.example.com';
+// Detect environment
+const isProduction = process.env.NODE_ENV === 'production';
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
+const BASE_URL = siteUrl || 'https://ai-toolbox.example.com';
+
+// Warn in production if NEXT_PUBLIC_SITE_URL is not configured
+if (isProduction && !siteUrl) {
+  console.warn('[AI工具箱] 警告: 生产环境未配置 NEXT_PUBLIC_SITE_URL，请在 .env.local 中设置。');
+}
 
 export const metadata: Metadata = {
   metadataBase: BASE_URL,

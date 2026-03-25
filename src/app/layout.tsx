@@ -57,6 +57,10 @@ export const metadata: Metadata = {
     description: '收录全球优质AI工具，涵盖AI写作、图像生成、视频制作、编程开发等领域。',
     images: ['/og-image.png'],
   },
+  icons: {
+    icon: '/favicon.svg',
+    shortcut: '/favicon.svg',
+  },
   alternates: {
     canonical: BASE_URL,
     languages: {

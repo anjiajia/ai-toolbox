@@ -4,6 +4,7 @@ import SectionHeading from '@/components/common/section-heading';
 import ToolGrid from '@/components/tools/tool-grid';
 import Container from '@/components/layout/container';
 import AdSlot from '@/components/common/ad-slot';
+import NewsSection from '@/components/news/news-section';
 import { getFeaturedTools, getAllTools } from '@/lib/tools';
 import { getAllCategories } from '@/lib/categories';
 import type { Metadata } from 'next';
@@ -155,6 +156,9 @@ export default function HomePage() {
           </div>
         </Container>
       </section>
+
+      {/* News Section */}
+      <NewsSection limit={5} showHeading={true} />
 
       {/* Ad Slot */}
       <Container>

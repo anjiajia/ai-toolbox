@@ -23,6 +23,7 @@ export default function Header() {
             <Link href="/tools/video" className="text-zinc-600 hover:text-blue-600 transition">AI视频</Link>
             <Link href="/tools/coding" className="text-zinc-600 hover:text-blue-600 transition">AI编程</Link>
             <Link href="/free-tools" className="text-zinc-600 hover:text-blue-600 transition">免费工具</Link>
+            <Link href="/news" className="text-zinc-600 hover:text-blue-600 transition">资讯</Link>
             <Link href="/about" className="text-zinc-600 hover:text-blue-600 transition">关于</Link>
           </nav>
 
@@ -51,6 +52,7 @@ export default function Header() {
               <Link href="/tools/video" className="text-zinc-600 hover:text-blue-600">AI视频</Link>
               <Link href="/tools/coding" className="text-zinc-600 hover:text-blue-600">AI编程</Link>
               <Link href="/free-tools" className="text-zinc-600 hover:text-blue-600">免费工具</Link>
+              <Link href="/news" className="text-zinc-600 hover:text-blue-600">资讯</Link>
               <Link href="/about" className="text-zinc-600 hover:text-blue-600">关于</Link>
             </nav>
           </div>

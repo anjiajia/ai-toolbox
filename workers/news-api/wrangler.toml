@@ -1,6 +1,7 @@
 name = "ai-news-api"
 main = "index.ts"
 compatibility_date = "2024-01-01"
+workers_dev = true
 
 kv_namespaces = [
   { binding = "AI_NEWS", id = "67f7ddc5afb34290bfa096ed7542c3b1" }

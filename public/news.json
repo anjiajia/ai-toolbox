@@ -1,6 +1,66 @@
 {
-  "updatedAt": "2026-03-29T18:07:10.411Z",
+  "updatedAt": "2026-03-30T01:05:59.786Z",
   "items": [
+    {
+      "id": "1fcd3e85",
+      "title": "Sora’s shutdown could be a reality check moment for AI video",
+      "summary": "Is this just normal corporate strategy, or are we about to see a broader pullback on AI-generated vi",
+      "url": "https://techcrunch.com/2026/03/29/soras-shutdown-could-be-a-reality-check-moment-for-ai-video/",
+      "source": "TechCrunch AI",
+      "tags": [
+        "视频"
+      ],
+      "publishedAt": "2026-03-29T16:30:00.000Z",
+      "fetchedAt": "2026-03-30T01:05:59.205Z"
+    },
+    {
+      "id": "001fd9b8",
+      "title": "Bluesky leans into AI with Attie, an app for building custom feeds",
+      "summary": "Bluesky’s new app Attie uses AI to help people build custom feeds the open social networking protoco",
+      "url": "https://techcrunch.com/2026/03/28/bluesky-leans-into-ai-with-attie-an-app-for-building-custom-feeds/",
+      "source": "TechCrunch AI",
+      "tags": [
+        "设计"
+      ],
+      "publishedAt": "2026-03-28T23:00:00.000Z",
+      "fetchedAt": "2026-03-30T01:05:59.205Z"
+    },
+    {
+      "id": "323e2f33",
+      "title": "Stanford study outlines dangers of asking AI chatbots for personal advice",
+      "summary": "While there’s been plenty of debate about AI sycophancy, a new study by Stanford computer scientists",
+      "url": "https://techcrunch.com/2026/03/28/stanford-study-outlines-dangers-of-asking-ai-chatbots-for-personal-advice/",
+      "source": "TechCrunch AI",
+      "tags": [
+        "AI"
+      ],
+      "publishedAt": "2026-03-28T20:45:54.000Z",
+      "fetchedAt": "2026-03-30T01:05:59.205Z"
+    },
+    {
+      "id": "2451aa0c",
+      "title": "Elon Musk’s last co-founder reportedly leaves xAI",
+      "summary": "All but two of Musk's 11 xAI co-founders departed before this week.",
+      "url": "https://techcrunch.com/2026/03/28/elon-musks-last-co-founder-reportedly-leaves-xai/",
+      "source": "TechCrunch AI",
+      "tags": [
+        "AI"
+      ],
+      "publishedAt": "2026-03-28T16:11:16.000Z",
+      "fetchedAt": "2026-03-30T01:05:59.205Z"
+    },
+    {
+      "id": "1296c0fe",
+      "title": "Anthropic&#8217;s Claude popularity with paying consumers is skyrocketing",
+      "summary": "Estimates for total Claude consumer users are all over the map (we've seen figures ranging from 18 m",
+      "url": "https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/",
+      "source": "TechCrunch AI",
+      "tags": [
+        "大模型"
+      ],
+      "publishedAt": "2026-03-28T14:15:00.000Z",
+      "fetchedAt": "2026-03-30T01:05:59.205Z"
+    },
     {
       "id": "5c8f608f",
       "title": "Show HN: Sam Altman:\"Scaling LLMs won't get us to AGI\" – maybe we found a path",
@@ -11,7 +71,7 @@
         "大模型"
       ],
       "publishedAt": "2025-08-19T18:33:37.000Z",
-      "fetchedAt": "2026-03-29T18:07:08.594Z"
+      "fetchedAt": "2026-03-30T01:05:57.042Z"
     }
   ]
 }

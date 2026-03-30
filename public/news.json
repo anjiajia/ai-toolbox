@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-30T01:05:59.786Z",
+  "updatedAt": "2026-03-30T06:08:00.940Z",
   "items": [
+    {
+      "id": "170f96c3",
+      "title": "Why OpenAI really shut down Sora",
+      "summary": "OpenAI's decision last week to shut down Sora, its AI video-generation tool, just six months after r",
+      "url": "https://techcrunch.com/2026/03/29/why-openai-really-shut-down-sora/",
+      "source": "TechCrunch AI",
+      "tags": [
+        "视频"
+      ],
+      "publishedAt": "2026-03-30T03:09:38.000Z",
+      "fetchedAt": "2026-03-30T06:08:00.357Z"
+    },
     {
       "id": "1fcd3e85",
       "title": "Sora’s shutdown could be a reality check moment for AI video",
@@ -11,7 +23,7 @@
         "视频"
       ],
       "publishedAt": "2026-03-29T16:30:00.000Z",
-      "fetchedAt": "2026-03-30T01:05:59.205Z"
+      "fetchedAt": "2026-03-30T06:08:00.357Z"
     },
     {
       "id": "001fd9b8",
@@ -23,7 +35,7 @@
         "设计"
       ],
       "publishedAt": "2026-03-28T23:00:00.000Z",
-      "fetchedAt": "2026-03-30T01:05:59.205Z"
+      "fetchedAt": "2026-03-30T06:08:00.357Z"
     },
     {
       "id": "323e2f33",
@@ -35,7 +47,7 @@
         "AI"
       ],
       "publishedAt": "2026-03-28T20:45:54.000Z",
-      "fetchedAt": "2026-03-30T01:05:59.205Z"
+      "fetchedAt": "2026-03-30T06:08:00.357Z"
     },
     {
       "id": "2451aa0c",
@@ -47,19 +59,7 @@
         "AI"
       ],
       "publishedAt": "2026-03-28T16:11:16.000Z",
-      "fetchedAt": "2026-03-30T01:05:59.205Z"
-    },
-    {
-      "id": "1296c0fe",
-      "title": "Anthropic&#8217;s Claude popularity with paying consumers is skyrocketing",
-      "summary": "Estimates for total Claude consumer users are all over the map (we've seen figures ranging from 18 m",
-      "url": "https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/",
-      "source": "TechCrunch AI",
-      "tags": [
-        "大模型"
-      ],
-      "publishedAt": "2026-03-28T14:15:00.000Z",
-      "fetchedAt": "2026-03-30T01:05:59.205Z"
+      "fetchedAt": "2026-03-30T06:08:00.357Z"
     },
     {
       "id": "5c8f608f",
@@ -71,7 +71,7 @@
         "大模型"
       ],
       "publishedAt": "2025-08-19T18:33:37.000Z",
-      "fetchedAt": "2026-03-30T01:05:57.042Z"
+      "fetchedAt": "2026-03-30T06:07:59.025Z"
     }
   ]
 }

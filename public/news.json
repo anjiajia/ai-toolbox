@@ -1,65 +1,127 @@
 {
-  "updatedAt": "2026-03-30T06:08:00.940Z",
+  "updatedAt": "2026-03-31T01:03:19.218Z",
   "items": [
     {
-      "id": "170f96c3",
-      "title": "Why OpenAI really shut down Sora",
-      "summary": "OpenAI's decision last week to shut down Sora, its AI video-generation tool, just six months after r",
-      "url": "https://techcrunch.com/2026/03/29/why-openai-really-shut-down-sora/",
-      "source": "TechCrunch AI",
-      "tags": [
-        "视频"
-      ],
-      "publishedAt": "2026-03-30T03:09:38.000Z",
-      "fetchedAt": "2026-03-30T06:08:00.357Z"
-    },
-    {
-      "id": "1fcd3e85",
-      "title": "Sora’s shutdown could be a reality check moment for AI video",
-      "summary": "Is this just normal corporate strategy, or are we about to see a broader pullback on AI-generated vi",
-      "url": "https://techcrunch.com/2026/03/29/soras-shutdown-could-be-a-reality-check-moment-for-ai-video/",
-      "source": "TechCrunch AI",
-      "tags": [
-        "视频"
-      ],
-      "publishedAt": "2026-03-29T16:30:00.000Z",
-      "fetchedAt": "2026-03-30T06:08:00.357Z"
-    },
-    {
-      "id": "001fd9b8",
-      "title": "Bluesky leans into AI with Attie, an app for building custom feeds",
-      "summary": "Bluesky’s new app Attie uses AI to help people build custom feeds the open social networking protoco",
-      "url": "https://techcrunch.com/2026/03/28/bluesky-leans-into-ai-with-attie-an-app-for-building-custom-feeds/",
+      "id": "18e8eb9c",
+      "title": "15% of Americans say they&#8217;d be willing to work for an AI boss, according to new poll",
+      "summary": "According to a Quinnipiac University poll, 15% of Americans say they'd be willing to have a job wher",
+      "url": "https://techcrunch.com/2026/03/30/ai-work-boss-supervisor-us-quinnipiac-poll/",
       "source": "TechCrunch AI",
       "tags": [
         "设计"
       ],
-      "publishedAt": "2026-03-28T23:00:00.000Z",
-      "fetchedAt": "2026-03-30T06:08:00.357Z"
+      "publishedAt": "2026-03-30T23:41:48.000Z",
+      "fetchedAt": "2026-03-31T01:03:16.251Z"
     },
     {
-      "id": "323e2f33",
-      "title": "Stanford study outlines dangers of asking AI chatbots for personal advice",
-      "summary": "While there’s been plenty of debate about AI sycophancy, a new study by Stanford computer scientists",
-      "url": "https://techcrunch.com/2026/03/28/stanford-study-outlines-dangers-of-asking-ai-chatbots-for-personal-advice/",
+      "id": "034c608c",
+      "title": "Popular AI gateway startup LiteLLM ditches controversial startup Delve",
+      "summary": "LiteLLM had obtained two security compliance certifications via Delve and fell victim to some horrif",
+      "url": "https://techcrunch.com/2026/03/30/popular-ai-gateway-startup-litellm-ditches-controversial-startup-delve/",
+      "source": "TechCrunch AI",
+      "tags": [
+        "大模型"
+      ],
+      "publishedAt": "2026-03-30T23:08:12.000Z",
+      "fetchedAt": "2026-03-31T01:03:16.252Z"
+    },
+    {
+      "id": "2bcaed83",
+      "title": "As more Americans adopt AI tools, fewer say they can trust the results",
+      "summary": "AI adoption is rising in the U.S., but trust remains low, with most Americans concerned about transp",
+      "url": "https://techcrunch.com/2026/03/30/ai-trust-adoption-poll-more-americans-adopt-tools-fewer-say-they-can-trust-the-results/",
+      "source": "TechCrunch AI",
+      "tags": [
+        "设计"
+      ],
+      "publishedAt": "2026-03-30T20:24:53.000Z",
+      "fetchedAt": "2026-03-31T01:03:16.252Z"
+    },
+    {
+      "id": "763e154a",
+      "title": "Secure governance accelerates financial AI revenue growth",
+      "summary": "Financial institutions are learning to deploy compliant AI solutions for greater revenue growth and ",
+      "url": "https://www.artificialintelligence-news.com/news/secure-governance-accelerates-financial-ai-revenue-growth/",
+      "source": "AI News",
+      "tags": [
+        "AI"
+      ],
+      "publishedAt": "2026-03-30T15:54:58.000Z",
+      "fetchedAt": "2026-03-31T01:03:18.925Z"
+    },
+    {
+      "id": "745c8dfd",
+      "title": "Mantis Biotech is making &#8216;digital twins&#8217; of humans to help solve medicine&#8217;s data availability problem",
+      "summary": "Mantis takes disparate sources of data to make synthetic datasets that can be used to build so-calle",
+      "url": "https://techcrunch.com/2026/03/30/mantis-biotech-is-making-digital-twins-of-humans-to-help-solve-medicines-data-availability-problem/",
+      "source": "TechCrunch AI",
+      "tags": [
+        "设计"
+      ],
+      "publishedAt": "2026-03-30T14:30:00.000Z",
+      "fetchedAt": "2026-03-31T01:03:16.252Z"
+    },
+    {
+      "id": "2864abfe",
+      "title": "Glia wins Excellence Award for safer AI in banking",
+      "summary": "Glia, a customer service platform providing AI-powered interactions for the banking sector, has been",
+      "url": "https://www.artificialintelligence-news.com/news/glia-wins-excellence-award-for-safer-ai-in-banking/",
+      "source": "AI News",
+      "tags": [
+        "AI"
+      ],
+      "publishedAt": "2026-03-30T14:12:59.000Z",
+      "fetchedAt": "2026-03-31T01:03:18.925Z"
+    },
+    {
+      "id": "2a5a0780",
+      "title": "ScaleOps raises $130M to improve computing efficiency amid AI demand",
+      "summary": "ScaleOps just raised $130M to tackle GPU shortages and soaring AI cloud costs by automating infrastr",
+      "url": "https://techcrunch.com/2026/03/30/scaleops-130m-series-c-kubernetes-efficiency-ai-demand-funding/",
       "source": "TechCrunch AI",
       "tags": [
         "AI"
       ],
-      "publishedAt": "2026-03-28T20:45:54.000Z",
-      "fetchedAt": "2026-03-30T06:08:00.357Z"
+      "publishedAt": "2026-03-30T13:52:02.000Z",
+      "fetchedAt": "2026-03-31T01:03:16.252Z"
     },
     {
-      "id": "2451aa0c",
-      "title": "Elon Musk’s last co-founder reportedly leaves xAI",
-      "summary": "All but two of Musk's 11 xAI co-founders departed before this week.",
-      "url": "https://techcrunch.com/2026/03/28/elon-musks-last-co-founder-reportedly-leaves-xai/",
-      "source": "TechCrunch AI",
+      "id": "53dd2a39",
+      "title": "How AEO vs GEO reshapes AI-driven brand discovery in 2026",
+      "summary": "When Pew Research Centre analysed 68,879 Google searches in March 2025, one finding stood out: users",
+      "url": "https://www.artificialintelligence-news.com/news/how-aeo-vs-geo-reshapes-ai-driven-brand-discovery-in-2026/",
+      "source": "AI News",
       "tags": [
         "AI"
       ],
-      "publishedAt": "2026-03-28T16:11:16.000Z",
-      "fetchedAt": "2026-03-30T06:08:00.357Z"
+      "publishedAt": "2026-03-30T11:57:11.000Z",
+      "fetchedAt": "2026-03-31T01:03:18.925Z"
+    },
+    {
+      "id": "62a25802",
+      "title": "Assessing AI powered price forecasting tools in currency markets",
+      "summary": "As artificial intelligence becomes a driving force in financial prediction, the reliability of its f",
+      "url": "https://www.artificialintelligence-news.com/news/assessing-ai-powered-price-forecasting-tools-in-currency-markets/",
+      "source": "AI News",
+      "tags": [
+        "AI"
+      ],
+      "publishedAt": "2026-03-30T11:49:38.000Z",
+      "fetchedAt": "2026-03-31T01:03:18.926Z"
+    },
+    {
+      "id": "777c6471",
+      "title": "Kong names Bruce Felt as chief financial officer",
+      "summary": "A developer of API and AI connectivity technologies, Kong, has announced that Bruce Felt has joined ",
+      "url": "https://www.artificialintelligence-news.com/news/kong-names-bruce-felt-as-chief-financial-officer/",
+      "source": "AI News",
+      "tags": [
+        "产品",
+        "编程",
+        "设计"
+      ],
+      "publishedAt": "2026-03-30T11:02:00.000Z",
+      "fetchedAt": "2026-03-31T01:03:18.926Z"
     },
     {
       "id": "5c8f608f",
@@ -71,7 +133,7 @@
         "大模型"
       ],
       "publishedAt": "2025-08-19T18:33:37.000Z",
-      "fetchedAt": "2026-03-30T06:07:59.025Z"
+      "fetchedAt": "2026-03-31T01:03:15.506Z"
     }
   ]
 }

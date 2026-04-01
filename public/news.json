@@ -1,41 +1,77 @@
 {
-  "updatedAt": "2026-03-31T06:03:06.182Z",
+  "updatedAt": "2026-04-01T01:05:34.698Z",
   "items": [
     {
-      "id": "18e8eb9c",
-      "title": "15% of Americans say they&#8217;d be willing to work for an AI boss, according to new poll",
-      "summary": "According to a Quinnipiac University poll, 15% of Americans say they'd be willing to have a job wher",
-      "url": "https://techcrunch.com/2026/03/30/ai-work-boss-supervisor-us-quinnipiac-poll/",
+      "id": "563c471f",
+      "title": "Anthropic is having a month",
+      "summary": "A human really borks things at Anthropic for the second time this week.",
+      "url": "https://techcrunch.com/2026/03/31/anthropic-is-having-a-month/",
       "source": "TechCrunch AI",
       "tags": [
-        "设计"
+        "AI"
       ],
-      "publishedAt": "2026-03-30T23:41:48.000Z",
-      "fetchedAt": "2026-03-31T06:03:02.653Z"
+      "publishedAt": "2026-03-31T23:58:26.000Z",
+      "fetchedAt": "2026-04-01T01:05:31.901Z"
     },
     {
-      "id": "034c608c",
-      "title": "Popular AI gateway startup LiteLLM ditches controversial startup Delve",
-      "summary": "LiteLLM had obtained two security compliance certifications via Delve and fell victim to some horrif",
-      "url": "https://techcrunch.com/2026/03/30/popular-ai-gateway-startup-litellm-ditches-controversial-startup-delve/",
+      "id": "33143693",
+      "title": "Salesforce announces an AI-heavy makeover for Slack, with 30 new features",
+      "summary": "Slack just got a whole lot more useful.",
+      "url": "https://techcrunch.com/2026/03/31/salesforce-announces-an-ai-heavy-makeover-for-slack-with-30-new-features/",
       "source": "TechCrunch AI",
       "tags": [
-        "大模型"
+        "产品"
       ],
-      "publishedAt": "2026-03-30T23:08:12.000Z",
-      "fetchedAt": "2026-03-31T06:03:02.654Z"
+      "publishedAt": "2026-03-31T22:46:25.000Z",
+      "fetchedAt": "2026-04-01T01:05:31.901Z"
     },
     {
-      "id": "2bcaed83",
-      "title": "As more Americans adopt AI tools, fewer say they can trust the results",
-      "summary": "AI adoption is rising in the U.S., but trust remains low, with most Americans concerned about transp",
-      "url": "https://techcrunch.com/2026/03/30/ai-trust-adoption-poll-more-americans-adopt-tools-fewer-say-they-can-trust-the-results/",
+      "id": "4d8671fa",
+      "title": "OpenAI, not yet public, raises $3B from retail investors in monster $122B fund raise",
+      "summary": "OpenAI's latest funding round, led by Amazon, Nvidia, and SoftBank, values the AI lab at $852 billio",
+      "url": "https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/",
       "source": "TechCrunch AI",
       "tags": [
-        "设计"
+        "营销"
       ],
-      "publishedAt": "2026-03-30T20:24:53.000Z",
-      "fetchedAt": "2026-03-31T06:03:02.654Z"
+      "publishedAt": "2026-03-31T21:25:04.000Z",
+      "fetchedAt": "2026-04-01T01:05:31.901Z"
+    },
+    {
+      "id": "534f568f",
+      "title": "Yupp shuts down after raising $33M from a16z crypto&#8217;s Chris Dixon",
+      "summary": "Less than a year after launching, with checks from some of the biggest names in Silicon Valley, crow",
+      "url": "https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/",
+      "source": "TechCrunch AI",
+      "tags": [
+        "产品"
+      ],
+      "publishedAt": "2026-03-31T20:01:07.000Z",
+      "fetchedAt": "2026-04-01T01:05:31.901Z"
+    },
+    {
+      "id": "59b9d527",
+      "title": "Alexa+ gets new food ordering experiences with Uber Eats and Grubhub",
+      "summary": "You can now order from Uber Eats and Grubhub using Alexa+, an experience Amazon says will be similar",
+      "url": "https://techcrunch.com/2026/03/31/alexa-plus-new-food-ordering-experiences-with-uber-eats-and-grubhub/",
+      "source": "TechCrunch AI",
+      "tags": [
+        "AI"
+      ],
+      "publishedAt": "2026-03-31T17:41:35.000Z",
+      "fetchedAt": "2026-04-01T01:05:31.901Z"
+    },
+    {
+      "id": "17abb00e",
+      "title": "SAP and ANYbotics drive industrial adoption of physical AI",
+      "summary": "Heavy industry relies on people to inspect hazardous, dirty facilities. It’s expensive, and putting ",
+      "url": "https://www.artificialintelligence-news.com/news/sap-and-anybotics-drive-industrial-adoption-physical-ai/",
+      "source": "AI News",
+      "tags": [
+        "AI"
+      ],
+      "publishedAt": "2026-03-31T15:20:53.000Z",
+      "fetchedAt": "2026-04-01T01:05:34.395Z"
     },
     {
       "id": "763e154a",
@@ -47,19 +83,7 @@
         "AI"
       ],
       "publishedAt": "2026-03-30T15:54:58.000Z",
-      "fetchedAt": "2026-03-31T06:03:05.856Z"
-    },
-    {
-      "id": "745c8dfd",
-      "title": "Mantis Biotech is making &#8216;digital twins&#8217; of humans to help solve medicine&#8217;s data availability problem",
-      "summary": "Mantis takes disparate sources of data to make synthetic datasets that can be used to build so-calle",
-      "url": "https://techcrunch.com/2026/03/30/mantis-biotech-is-making-digital-twins-of-humans-to-help-solve-medicines-data-availability-problem/",
-      "source": "TechCrunch AI",
-      "tags": [
-        "设计"
-      ],
-      "publishedAt": "2026-03-30T14:30:00.000Z",
-      "fetchedAt": "2026-03-31T06:03:02.654Z"
+      "fetchedAt": "2026-04-01T01:05:34.395Z"
     },
     {
       "id": "2864abfe",
@@ -71,19 +95,7 @@
         "AI"
       ],
       "publishedAt": "2026-03-30T14:12:59.000Z",
-      "fetchedAt": "2026-03-31T06:03:05.856Z"
-    },
-    {
-      "id": "2a5a0780",
-      "title": "ScaleOps raises $130M to improve computing efficiency amid AI demand",
-      "summary": "ScaleOps just raised $130M to tackle GPU shortages and soaring AI cloud costs by automating infrastr",
-      "url": "https://techcrunch.com/2026/03/30/scaleops-130m-series-c-kubernetes-efficiency-ai-demand-funding/",
-      "source": "TechCrunch AI",
-      "tags": [
-        "AI"
-      ],
-      "publishedAt": "2026-03-30T13:52:02.000Z",
-      "fetchedAt": "2026-03-31T06:03:02.654Z"
+      "fetchedAt": "2026-04-01T01:05:34.396Z"
     },
     {
       "id": "53dd2a39",
@@ -95,7 +107,7 @@
         "AI"
       ],
       "publishedAt": "2026-03-30T11:57:11.000Z",
-      "fetchedAt": "2026-03-31T06:03:05.857Z"
+      "fetchedAt": "2026-04-01T01:05:34.396Z"
     },
     {
       "id": "62a25802",
@@ -107,21 +119,7 @@
         "AI"
       ],
       "publishedAt": "2026-03-30T11:49:38.000Z",
-      "fetchedAt": "2026-03-31T06:03:05.857Z"
-    },
-    {
-      "id": "777c6471",
-      "title": "Kong names Bruce Felt as chief financial officer",
-      "summary": "A developer of API and AI connectivity technologies, Kong, has announced that Bruce Felt has joined ",
-      "url": "https://www.artificialintelligence-news.com/news/kong-names-bruce-felt-as-chief-financial-officer/",
-      "source": "AI News",
-      "tags": [
-        "产品",
-        "编程",
-        "设计"
-      ],
-      "publishedAt": "2026-03-30T11:02:00.000Z",
-      "fetchedAt": "2026-03-31T06:03:05.857Z"
+      "fetchedAt": "2026-04-01T01:05:34.396Z"
     },
     {
       "id": "5c8f608f",
@@ -133,7 +131,7 @@
         "大模型"
       ],
       "publishedAt": "2025-08-19T18:33:37.000Z",
-      "fetchedAt": "2026-03-31T06:02:59.002Z"
+      "fetchedAt": "2026-04-01T01:05:31.166Z"
     }
   ]
 }

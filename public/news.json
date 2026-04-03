@@ -1,127 +1,125 @@
 {
-  "updatedAt": "2026-04-01T06:04:18.937Z",
+  "updatedAt": "2026-04-03T01:15:40.056Z",
   "items": [
     {
-      "id": "7f3e9cea",
-      "title": "Mercor says it was hit by cyberattack tied to compromise of open-source LiteLLM project",
-      "summary": "The AI recruiting startup confirmed a security incident after an extortion hacking crew took credit ",
-      "url": "https://techcrunch.com/2026/03/31/mercor-says-it-was-hit-by-cyberattack-tied-to-compromise-of-open-source-litellm-project/",
+      "id": "080c8776",
+      "title": "OpenAI acquires TBPN, the buzzy founder-led business talk show",
+      "summary": "TBPN, Silicon Valley's cult-favorite tech podcast, will operate independently, even as it's overseen",
+      "url": "https://techcrunch.com/2026/04/02/openai-acquires-tbpn-the-buzzy-founder-led-business-talk-show/",
       "source": "TechCrunch AI",
       "tags": [
-        "大模型",
-        "开源",
         "设计"
       ],
-      "publishedAt": "2026-04-01T01:42:59.000Z",
-      "fetchedAt": "2026-04-01T06:04:15.774Z"
+      "publishedAt": "2026-04-02T19:21:00.000Z",
+      "fetchedAt": "2026-04-03T01:15:37.741Z"
     },
     {
-      "id": "563c471f",
-      "title": "Anthropic is having a month",
-      "summary": "A human really borks things at Anthropic for the second time this week.",
-      "url": "https://techcrunch.com/2026/03/31/anthropic-is-having-a-month/",
-      "source": "TechCrunch AI",
-      "tags": [
-        "AI"
-      ],
-      "publishedAt": "2026-03-31T23:58:26.000Z",
-      "fetchedAt": "2026-04-01T06:04:15.775Z"
-    },
-    {
-      "id": "33143693",
-      "title": "Salesforce announces an AI-heavy makeover for Slack, with 30 new features",
-      "summary": "Slack just got a whole lot more useful.",
-      "url": "https://techcrunch.com/2026/03/31/salesforce-announces-an-ai-heavy-makeover-for-slack-with-30-new-features/",
+      "id": "25b28ab9",
+      "title": "Microsoft takes on AI rivals with three new foundational models",
+      "summary": "MAI released models that can transcribe voice into text as well as generate audio and images after t",
+      "url": "https://techcrunch.com/2026/04/02/microsoft-takes-on-ai-rivals-with-three-new-foundational-models/",
       "source": "TechCrunch AI",
       "tags": [
         "产品"
       ],
-      "publishedAt": "2026-03-31T22:46:25.000Z",
-      "fetchedAt": "2026-04-01T06:04:15.775Z"
+      "publishedAt": "2026-04-02T16:48:16.000Z",
+      "fetchedAt": "2026-04-03T01:15:37.742Z"
     },
     {
-      "id": "4d8671fa",
-      "title": "OpenAI, not yet public, raises $3B from retail investors in monster $122B fund raise",
-      "summary": "OpenAI's latest funding round, led by Amazon, Nvidia, and SoftBank, values the AI lab at $852 billio",
-      "url": "https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/",
-      "source": "TechCrunch AI",
-      "tags": [
-        "营销"
-      ],
-      "publishedAt": "2026-03-31T21:25:04.000Z",
-      "fetchedAt": "2026-04-01T06:04:15.775Z"
-    },
-    {
-      "id": "534f568f",
-      "title": "Yupp shuts down after raising $33M from a16z crypto&#8217;s Chris Dixon",
-      "summary": "Less than a year after launching, with checks from some of the biggest names in Silicon Valley, crow",
-      "url": "https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/",
-      "source": "TechCrunch AI",
+      "id": "41a007ce",
+      "title": "KiloClaw targets shadow AI with autonomous agent governance",
+      "summary": "With the launch of KiloClaw, enterprises now have a tool to enforce governance over autonomous agent",
+      "url": "https://www.artificialintelligence-news.com/news/kiloclaw-targets-shadow-ai-autonomous-agent-governance/",
+      "source": "AI News",
       "tags": [
         "产品"
       ],
-      "publishedAt": "2026-03-31T20:01:07.000Z",
-      "fetchedAt": "2026-04-01T06:04:15.775Z"
+      "publishedAt": "2026-04-02T16:30:53.000Z",
+      "fetchedAt": "2026-04-03T01:15:39.284Z"
     },
     {
-      "id": "17abb00e",
-      "title": "SAP and ANYbotics drive industrial adoption of physical AI",
-      "summary": "Heavy industry relies on people to inspect hazardous, dirty facilities. It’s expensive, and putting ",
-      "url": "https://www.artificialintelligence-news.com/news/sap-and-anybotics-drive-industrial-adoption-physical-ai/",
+      "id": "43b8ca31",
+      "title": "Google now lets you direct avatars through prompts in its Vids app",
+      "summary": "Google is adding a way to customize and instruct avatars for video creation in the Vids app.",
+      "url": "https://techcrunch.com/2026/04/02/google-now-lets-you-direct-avatars-through-prompts-in-its-vids-app/",
+      "source": "TechCrunch AI",
+      "tags": [
+        "AI"
+      ],
+      "publishedAt": "2026-04-02T16:00:00.000Z",
+      "fetchedAt": "2026-04-03T01:15:37.742Z"
+    },
+    {
+      "id": "344de99e",
+      "title": "5 best practices to secure AI systems",
+      "summary": "A decade ago, it would have been hard to believe that artificial intelligence could do what it can d",
+      "url": "https://www.artificialintelligence-news.com/news/5-best-practices-to-secure-ai-systems/",
+      "source": "AI News",
+      "tags": [
+        "设计"
+      ],
+      "publishedAt": "2026-04-02T14:45:03.000Z",
+      "fetchedAt": "2026-04-03T01:15:39.284Z"
+    },
+    {
+      "id": "4722ca46",
+      "title": "China&#8217;s Five-Year Plan details the targets for AI deployment",
+      "summary": "China has approved its 15th Five-Year Plan [PDF] setting out the country&#8217;s economic, education",
+      "url": "https://www.artificialintelligence-news.com/news/chinas-five-year-plan-details-the-targets-for-ai-deployment/",
       "source": "AI News",
       "tags": [
         "AI"
       ],
-      "publishedAt": "2026-03-31T15:20:53.000Z",
-      "fetchedAt": "2026-04-01T06:04:18.636Z"
+      "publishedAt": "2026-04-02T13:23:00.000Z",
+      "fetchedAt": "2026-04-03T01:15:39.284Z"
     },
     {
-      "id": "763e154a",
-      "title": "Secure governance accelerates financial AI revenue growth",
-      "summary": "Financial institutions are learning to deploy compliant AI solutions for greater revenue growth and ",
-      "url": "https://www.artificialintelligence-news.com/news/secure-governance-accelerates-financial-ai-revenue-growth/",
+      "id": "3a5da83e",
+      "title": "Autonomous AI systems depend on data governance",
+      "summary": "Much of the current focus on AI safety has centred on models – how they are trained and monitored. B",
+      "url": "https://www.artificialintelligence-news.com/news/autonomous-ai-systems-depend-on-data-governance/",
       "source": "AI News",
       "tags": [
         "AI"
       ],
-      "publishedAt": "2026-03-30T15:54:58.000Z",
-      "fetchedAt": "2026-04-01T06:04:18.637Z"
+      "publishedAt": "2026-04-02T10:00:00.000Z",
+      "fetchedAt": "2026-04-03T01:15:39.284Z"
     },
     {
-      "id": "2864abfe",
-      "title": "Glia wins Excellence Award for safer AI in banking",
-      "summary": "Glia, a customer service platform providing AI-powered interactions for the banking sector, has been",
-      "url": "https://www.artificialintelligence-news.com/news/glia-wins-excellence-award-for-safer-ai-in-banking/",
+      "id": "795185e4",
+      "title": "Experian uncovers fraud paradox in financial services&#8217; AI adoption",
+      "summary": "The same technology that financial institutions deploying is being weaponised against them. That is ",
+      "url": "https://www.artificialintelligence-news.com/news/experian-ai-fraud-detection-financial-services-2026/",
       "source": "AI News",
       "tags": [
         "AI"
       ],
-      "publishedAt": "2026-03-30T14:12:59.000Z",
-      "fetchedAt": "2026-04-01T06:04:18.637Z"
+      "publishedAt": "2026-04-02T10:00:00.000Z",
+      "fetchedAt": "2026-04-03T01:15:39.284Z"
     },
     {
-      "id": "53dd2a39",
-      "title": "How AEO vs GEO reshapes AI-driven brand discovery in 2026",
-      "summary": "When Pew Research Centre analysed 68,879 Google searches in March 2025, one finding stood out: users",
-      "url": "https://www.artificialintelligence-news.com/news/how-aeo-vs-geo-reshapes-ai-driven-brand-discovery-in-2026/",
-      "source": "AI News",
+      "id": "30536e24",
+      "title": "Anthropic took down thousands of GitHub repos trying to yank its leaked source code — a move the company says was an accident",
+      "summary": "Anthropic executives said it was an accident and retracted the bulk of the takedown notices.",
+      "url": "https://techcrunch.com/2026/04/01/anthropic-took-down-thousands-of-github-repos-trying-to-yank-its-leaked-source-code-a-move-the-company-says-was-an-accident/",
+      "source": "TechCrunch AI",
+      "tags": [
+        "开源"
+      ],
+      "publishedAt": "2026-04-01T22:12:13.000Z",
+      "fetchedAt": "2026-04-03T01:15:37.742Z"
+    },
+    {
+      "id": "7bb28593",
+      "title": "Meta’s natural gas binge could power South Dakota",
+      "summary": "Meta's upcoming Hyperion AI data center will be powered by 10 new natural gas plants.",
+      "url": "https://techcrunch.com/2026/04/01/metas-natural-gas-binge-could-power-south-dakota/",
+      "source": "TechCrunch AI",
       "tags": [
         "AI"
       ],
-      "publishedAt": "2026-03-30T11:57:11.000Z",
-      "fetchedAt": "2026-04-01T06:04:18.637Z"
-    },
-    {
-      "id": "62a25802",
-      "title": "Assessing AI powered price forecasting tools in currency markets",
-      "summary": "As artificial intelligence becomes a driving force in financial prediction, the reliability of its f",
-      "url": "https://www.artificialintelligence-news.com/news/assessing-ai-powered-price-forecasting-tools-in-currency-markets/",
-      "source": "AI News",
-      "tags": [
-        "AI"
-      ],
-      "publishedAt": "2026-03-30T11:49:38.000Z",
-      "fetchedAt": "2026-04-01T06:04:18.637Z"
+      "publishedAt": "2026-04-01T18:35:36.000Z",
+      "fetchedAt": "2026-04-03T01:15:37.742Z"
     },
     {
       "id": "5c8f608f",
@@ -133,7 +131,7 @@
         "大模型"
       ],
       "publishedAt": "2025-08-19T18:33:37.000Z",
-      "fetchedAt": "2026-04-01T06:04:14.148Z"
+      "fetchedAt": "2026-04-03T01:15:36.527Z"
     }
   ]
 }

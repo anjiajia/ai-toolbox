@@ -1,29 +1,65 @@
 {
-  "updatedAt": "2026-04-03T01:17:47.649Z",
+  "updatedAt": "2026-04-04T13:06:40.718Z",
   "items": [
     {
-      "id": "080c8776",
-      "title": "OpenAI acquires TBPN, the buzzy founder-led business talk show",
-      "summary": "TBPN, Silicon Valley's cult-favorite tech podcast, will operate independently, even as it's overseen",
-      "url": "https://techcrunch.com/2026/04/02/openai-acquires-tbpn-the-buzzy-founder-led-business-talk-show/",
+      "id": "11bb05c5",
+      "title": "Anthropic is having a moment in the private markets; SpaceX could spoil the party",
+      "summary": "Glen Anderson, president of Rainmaker Securities, says the secondary market for private shares has n",
+      "url": "https://techcrunch.com/2026/04/03/anthropic-is-having-a-moment-in-the-private-markets-spacex-could-spoil-the-party/",
+      "source": "TechCrunch AI",
+      "tags": [
+        "AI"
+      ],
+      "publishedAt": "2026-04-04T01:31:00.000Z",
+      "fetchedAt": "2026-04-04T13:06:32.493Z"
+    },
+    {
+      "id": "61212a14",
+      "title": "OpenAI executive shuffle includes new role for COO Brad Lightcap to lead &#8216;special projects&#8217;",
+      "summary": "In addition to Lightcap's new role, OpenAI CMO Kate Rouch will be stepping away from the company to ",
+      "url": "https://techcrunch.com/2026/04/03/openai-executive-shuffle-new-roles-coo-brad-lightcap-fidji-simo-kate-rouch/",
+      "source": "TechCrunch AI",
+      "tags": [
+        "AI"
+      ],
+      "publishedAt": "2026-04-03T20:35:34.000Z",
+      "fetchedAt": "2026-04-04T13:06:32.493Z"
+    },
+    {
+      "id": "0269dea8",
+      "title": "Anthropic buys biotech startup Coefficient Bio in $400M deal: Reports",
+      "summary": "Anthropic has purchased the stealth biotech AI startup Coefficient Bio in a $400 million stock deal,",
+      "url": "https://techcrunch.com/2026/04/03/anthropic-buys-biotech-startup-coefficient-bio-in-400m-deal-reports/",
+      "source": "TechCrunch AI",
+      "tags": [
+        "AI"
+      ],
+      "publishedAt": "2026-04-03T20:28:40.000Z",
+      "fetchedAt": "2026-04-04T13:06:32.493Z"
+    },
+    {
+      "id": "73c0bfae",
+      "title": "Anthropic ramps up its political activities with a new PAC",
+      "summary": "With the midterms right around the corner, the new group is positioned to back candidates who suppor",
+      "url": "https://techcrunch.com/2026/04/03/anthropic-ramps-up-its-political-activities-with-a-new-pac/",
+      "source": "TechCrunch AI",
+      "tags": [
+        "AI"
+      ],
+      "publishedAt": "2026-04-03T20:22:18.000Z",
+      "fetchedAt": "2026-04-04T13:06:32.493Z"
+    },
+    {
+      "id": "7999c501",
+      "title": "AI companies are building huge natural gas plants to power data centers. What could go wrong?",
+      "summary": "Meta, Microsoft, and Google are all betting big on new natural gas power plants to run their AI data",
+      "url": "https://techcrunch.com/2026/04/03/ai-companies-are-building-huge-natural-gas-plants-to-power-data-centers-what-could-go-wrong/",
       "source": "TechCrunch AI",
       "tags": [
         "设计"
       ],
-      "publishedAt": "2026-04-02T19:21:00.000Z",
-      "fetchedAt": "2026-04-03T01:17:45.454Z"
-    },
-    {
-      "id": "25b28ab9",
-      "title": "Microsoft takes on AI rivals with three new foundational models",
-      "summary": "MAI released models that can transcribe voice into text as well as generate audio and images after t",
-      "url": "https://techcrunch.com/2026/04/02/microsoft-takes-on-ai-rivals-with-three-new-foundational-models/",
-      "source": "TechCrunch AI",
-      "tags": [
-        "产品"
-      ],
-      "publishedAt": "2026-04-02T16:48:16.000Z",
-      "fetchedAt": "2026-04-03T01:17:45.454Z"
+      "publishedAt": "2026-04-03T19:48:22.000Z",
+      "fetchedAt": "2026-04-04T13:06:32.493Z"
     },
     {
       "id": "41a007ce",
@@ -35,19 +71,7 @@
         "产品"
       ],
       "publishedAt": "2026-04-02T16:30:53.000Z",
-      "fetchedAt": "2026-04-03T01:17:46.933Z"
-    },
-    {
-      "id": "43b8ca31",
-      "title": "Google now lets you direct avatars through prompts in its Vids app",
-      "summary": "Google is adding a way to customize and instruct avatars for video creation in the Vids app.",
-      "url": "https://techcrunch.com/2026/04/02/google-now-lets-you-direct-avatars-through-prompts-in-its-vids-app/",
-      "source": "TechCrunch AI",
-      "tags": [
-        "AI"
-      ],
-      "publishedAt": "2026-04-02T16:00:00.000Z",
-      "fetchedAt": "2026-04-03T01:17:45.454Z"
+      "fetchedAt": "2026-04-04T13:06:35.709Z"
     },
     {
       "id": "344de99e",
@@ -59,7 +83,7 @@
         "设计"
       ],
       "publishedAt": "2026-04-02T14:45:03.000Z",
-      "fetchedAt": "2026-04-03T01:17:46.933Z"
+      "fetchedAt": "2026-04-04T13:06:35.709Z"
     },
     {
       "id": "4722ca46",
@@ -71,7 +95,7 @@
         "AI"
       ],
       "publishedAt": "2026-04-02T13:23:00.000Z",
-      "fetchedAt": "2026-04-03T01:17:46.934Z"
+      "fetchedAt": "2026-04-04T13:06:35.709Z"
     },
     {
       "id": "3a5da83e",
@@ -83,7 +107,7 @@
         "AI"
       ],
       "publishedAt": "2026-04-02T10:00:00.000Z",
-      "fetchedAt": "2026-04-03T01:17:46.934Z"
+      "fetchedAt": "2026-04-04T13:06:35.709Z"
     },
     {
       "id": "795185e4",
@@ -95,31 +119,7 @@
         "AI"
       ],
       "publishedAt": "2026-04-02T10:00:00.000Z",
-      "fetchedAt": "2026-04-03T01:17:46.934Z"
-    },
-    {
-      "id": "30536e24",
-      "title": "Anthropic took down thousands of GitHub repos trying to yank its leaked source code — a move the company says was an accident",
-      "summary": "Anthropic executives said it was an accident and retracted the bulk of the takedown notices.",
-      "url": "https://techcrunch.com/2026/04/01/anthropic-took-down-thousands-of-github-repos-trying-to-yank-its-leaked-source-code-a-move-the-company-says-was-an-accident/",
-      "source": "TechCrunch AI",
-      "tags": [
-        "开源"
-      ],
-      "publishedAt": "2026-04-01T22:12:13.000Z",
-      "fetchedAt": "2026-04-03T01:17:45.454Z"
-    },
-    {
-      "id": "7bb28593",
-      "title": "Meta’s natural gas binge could power South Dakota",
-      "summary": "Meta's upcoming Hyperion AI data center will be powered by 10 new natural gas plants.",
-      "url": "https://techcrunch.com/2026/04/01/metas-natural-gas-binge-could-power-south-dakota/",
-      "source": "TechCrunch AI",
-      "tags": [
-        "AI"
-      ],
-      "publishedAt": "2026-04-01T18:35:36.000Z",
-      "fetchedAt": "2026-04-03T01:17:45.454Z"
+      "fetchedAt": "2026-04-04T13:06:35.709Z"
     },
     {
       "id": "5c8f608f",
@@ -131,7 +131,7 @@
         "大模型"
       ],
       "publishedAt": "2025-08-19T18:33:37.000Z",
-      "fetchedAt": "2026-04-03T01:17:44.453Z"
+      "fetchedAt": "2026-04-04T13:06:31.948Z"
     }
   ]
 }

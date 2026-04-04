@@ -1,66 +1,6 @@
 {
-  "updatedAt": "2026-04-04T13:06:40.718Z",
+  "updatedAt": "2026-04-04T13:10:25.212Z",
   "items": [
-    {
-      "id": "11bb05c5",
-      "title": "Anthropic is having a moment in the private markets; SpaceX could spoil the party",
-      "summary": "Glen Anderson, president of Rainmaker Securities, says the secondary market for private shares has n",
-      "url": "https://techcrunch.com/2026/04/03/anthropic-is-having-a-moment-in-the-private-markets-spacex-could-spoil-the-party/",
-      "source": "TechCrunch AI",
-      "tags": [
-        "AI"
-      ],
-      "publishedAt": "2026-04-04T01:31:00.000Z",
-      "fetchedAt": "2026-04-04T13:06:32.493Z"
-    },
-    {
-      "id": "61212a14",
-      "title": "OpenAI executive shuffle includes new role for COO Brad Lightcap to lead &#8216;special projects&#8217;",
-      "summary": "In addition to Lightcap's new role, OpenAI CMO Kate Rouch will be stepping away from the company to ",
-      "url": "https://techcrunch.com/2026/04/03/openai-executive-shuffle-new-roles-coo-brad-lightcap-fidji-simo-kate-rouch/",
-      "source": "TechCrunch AI",
-      "tags": [
-        "AI"
-      ],
-      "publishedAt": "2026-04-03T20:35:34.000Z",
-      "fetchedAt": "2026-04-04T13:06:32.493Z"
-    },
-    {
-      "id": "0269dea8",
-      "title": "Anthropic buys biotech startup Coefficient Bio in $400M deal: Reports",
-      "summary": "Anthropic has purchased the stealth biotech AI startup Coefficient Bio in a $400 million stock deal,",
-      "url": "https://techcrunch.com/2026/04/03/anthropic-buys-biotech-startup-coefficient-bio-in-400m-deal-reports/",
-      "source": "TechCrunch AI",
-      "tags": [
-        "AI"
-      ],
-      "publishedAt": "2026-04-03T20:28:40.000Z",
-      "fetchedAt": "2026-04-04T13:06:32.493Z"
-    },
-    {
-      "id": "73c0bfae",
-      "title": "Anthropic ramps up its political activities with a new PAC",
-      "summary": "With the midterms right around the corner, the new group is positioned to back candidates who suppor",
-      "url": "https://techcrunch.com/2026/04/03/anthropic-ramps-up-its-political-activities-with-a-new-pac/",
-      "source": "TechCrunch AI",
-      "tags": [
-        "AI"
-      ],
-      "publishedAt": "2026-04-03T20:22:18.000Z",
-      "fetchedAt": "2026-04-04T13:06:32.493Z"
-    },
-    {
-      "id": "7999c501",
-      "title": "AI companies are building huge natural gas plants to power data centers. What could go wrong?",
-      "summary": "Meta, Microsoft, and Google are all betting big on new natural gas power plants to run their AI data",
-      "url": "https://techcrunch.com/2026/04/03/ai-companies-are-building-huge-natural-gas-plants-to-power-data-centers-what-could-go-wrong/",
-      "source": "TechCrunch AI",
-      "tags": [
-        "设计"
-      ],
-      "publishedAt": "2026-04-03T19:48:22.000Z",
-      "fetchedAt": "2026-04-04T13:06:32.493Z"
-    },
     {
       "id": "41a007ce",
       "title": "KiloClaw targets shadow AI with autonomous agent governance",
@@ -71,7 +11,7 @@
         "产品"
       ],
       "publishedAt": "2026-04-02T16:30:53.000Z",
-      "fetchedAt": "2026-04-04T13:06:35.709Z"
+      "fetchedAt": "2026-04-04T13:10:16.647Z"
     },
     {
       "id": "344de99e",
@@ -83,7 +23,7 @@
         "设计"
       ],
       "publishedAt": "2026-04-02T14:45:03.000Z",
-      "fetchedAt": "2026-04-04T13:06:35.709Z"
+      "fetchedAt": "2026-04-04T13:10:16.647Z"
     },
     {
       "id": "4722ca46",
@@ -95,7 +35,7 @@
         "AI"
       ],
       "publishedAt": "2026-04-02T13:23:00.000Z",
-      "fetchedAt": "2026-04-04T13:06:35.709Z"
+      "fetchedAt": "2026-04-04T13:10:16.647Z"
     },
     {
       "id": "3a5da83e",
@@ -107,7 +47,7 @@
         "AI"
       ],
       "publishedAt": "2026-04-02T10:00:00.000Z",
-      "fetchedAt": "2026-04-04T13:06:35.709Z"
+      "fetchedAt": "2026-04-04T13:10:16.647Z"
     },
     {
       "id": "795185e4",
@@ -119,7 +59,7 @@
         "AI"
       ],
       "publishedAt": "2026-04-02T10:00:00.000Z",
-      "fetchedAt": "2026-04-04T13:06:35.709Z"
+      "fetchedAt": "2026-04-04T13:10:16.647Z"
     },
     {
       "id": "5c8f608f",
@@ -131,7 +71,7 @@
         "大模型"
       ],
       "publishedAt": "2025-08-19T18:33:37.000Z",
-      "fetchedAt": "2026-04-04T13:06:31.948Z"
+      "fetchedAt": "2026-04-04T13:10:13.234Z"
     }
   ]
 }

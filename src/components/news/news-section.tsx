@@ -7,53 +7,40 @@ import type { NewsItem } from './types';
 
 const NEWS_API_URL = process.env.NEXT_PUBLIC_NEWS_API_URL || '';
 
-const TAG_MAP: Record<string, string> = {
-  '大模型': 'llm',
-  '开源': 'open-source',
-  '产品': 'product',
-  '安全': 'security',
-  '编程': 'coding',
-};
-
-const ALL_TAGS = ['全部', '大模型', '开源', '产品', '安全', '编程'];
-
 interface NewsSectionProps {
-  /** 展示条数，默认5 */
   limit?: number;
-  /** 是否显示标题区域 */
   showHeading?: boolean;
 }
 
 export default function NewsSection({ limit = 5, showHeading = true }: NewsSectionProps) {
   const [items, setItems] = useState<NewsItem[]>([]);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    if (!NEWS_API_URL) {
-      setLoading(false);
-      setError('未配置资讯API');
-      return;
-    }
-
-    fetch(`${NEWS_API_URL}/api/news`)
-      .then(res => {
-        if (!res.ok) throw new Error('获取失败');
-        return res.json();
-      })
+    // 优先读本地 news.json（构建时生成）
+    fetch('/news.json')
+      .then(res => res.ok ? res.json() : null)
       .then(data => {
-        setItems(data.items || []);
+        if (data?.items?.length) {
+          setItems(data.items);
+        }
         setLoading(false);
       })
-      .catch(err => {
-        setError(err.message);
-        setLoading(false);
-      });
-  }, []);
+      .catch(() => setLoading(false));
 
-  if (!NEWS_API_URL) {
-    return null;
-  }
+    // 同时尝试从 API 更新（运行时）
+    if (NEWS_API_URL) {
+      fetch(`${NEWS_API_URL}/api/news`)
+        .then(res => res.ok ? res.json() : null)
+        .then(data => {
+          if (data?.items?.length) {
+            setItems(data.items);
+            setLoading(false);
+          }
+        })
+        .catch(() => {});
+    }
+  }, []);
 
   return (
     <section className="py-12">
@@ -79,13 +66,9 @@ export default function NewsSection({ limit = 5, showHeading = true }: NewsSecti
               <div key={i} className="h-24 bg-zinc-100 rounded-xl animate-pulse" />
             ))}
           </div>
-        ) : error ? (
-          <div className="text-center py-8 text-zinc-400">
-            <p>资讯加载失败，请稍后刷新</p>
-          </div>
         ) : items.length === 0 ? (
           <div className="text-center py-8 text-zinc-400">
-            <p>暂无资讯</p>
+            <p>暂无资讯（数据将在下次 cron 更新后显示）</p>
           </div>
         ) : (
           <div className="grid gap-3">

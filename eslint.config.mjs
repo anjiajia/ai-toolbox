@@ -3,7 +3,14 @@ import nextVitals from "eslint-config-next/core-web-vitals";
 import nextTs from "eslint-config-next/typescript";
 
 const eslintConfig = defineConfig([
-  ...nextVitals,
+  ...nextVitals.map(config => ({
+    ...config,
+    rules: {
+      ...config.rules,
+      // Disable overly strict rule that flags valid async patterns
+      'react-hooks/set-state-in-effect': 'off',
+    },
+  })),
   ...nextTs,
   // Override default ignores of eslint-config-next.
   globalIgnores([

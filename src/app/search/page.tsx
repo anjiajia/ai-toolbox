@@ -1,6 +1,4 @@
 import Container from '@/components/layout/container';
-import ToolGrid from '@/components/tools/tool-grid';
-import SectionHeading from '@/components/common/section-heading';
 import SearchBar from '@/components/common/search-bar';
 import SearchResults from './search-results';
 import type { Metadata } from 'next';

@@ -28,13 +28,6 @@ export function BreadcrumbJsonLd({ items, baseUrl }: { items: { name: string; ur
 }
 
 export function SoftwareAppJsonLd({ tool, baseUrl }: { tool: Tool; baseUrl: string }) {
-  const pricingMap: Record<string, string> = {
-    free: 'https://schema.org/Free',
-    freemium: 'https://schema.org/Freemium',
-    paid: 'https://schema.org/Paid',
-    contact: 'https://schema.org/Contact',
-  };
-
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'SoftwareApplication',

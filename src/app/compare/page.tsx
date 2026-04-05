@@ -1,6 +1,5 @@
 import Container from '@/components/layout/container';
 import Link from 'next/link';
-import ToolGrid from '@/components/tools/tool-grid';
 import { getAllTools } from '@/lib/tools';
 import { getAllCategories } from '@/lib/categories';
 import type { Metadata } from 'next';

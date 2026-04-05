@@ -28,7 +28,7 @@ const categories = ['writing', 'image', 'video', 'audio', 'coding', 'productivit
 const tools = getAllTools();
 const today = new Date().toISOString().split('T')[0];
 
-let urls = [
+const urls = [
   `<url><loc>${BASE_URL}/</loc><lastmod>${today}</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>`,
   `<url><loc>${BASE_URL}/free-tools</loc><lastmod>${today}</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>`,
   `<url><loc>${BASE_URL}/about</loc><lastmod>${today}</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>`,

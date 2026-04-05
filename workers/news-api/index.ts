@@ -71,7 +71,9 @@ interface Env {
 }
 
 const worker: ExportedHandler<Env> = {
-  fetch(request: Request, env: Env, ctx: ExecutionContext) {
+  fetch(request: Request, env: Env, _ctx: ExecutionContext) {
+    // ctx is required by the Cloudflare Workers interface but not used in this handler
+    void _ctx;
     return handleRequest(request, env);
   }
 };

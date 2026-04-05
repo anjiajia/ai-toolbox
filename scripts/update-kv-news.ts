@@ -10,7 +10,7 @@ import { join } from 'path';
 const ACCOUNT_ID = 'ba79d96fd86617e606e07f21e09301d2';
 const NAMESPACE_ID = '67f7ddc5afb34290bfa096ed7542c3b1';
 const API_TOKEN = 'cfat_B8zPecpWrzb1NoAI2K9MWT3GEg9l4nXBfEmFdQ4m6b8f766d';
-const UPDATE_TOKEN = process.env.CF_UPDATE_TOKEN || 'ai-news-secret-2026';
+// const UPDATE_TOKEN = process.env.CF_UPDATE_TOKEN || 'ai-news-secret-2026'; // Reserved for future auth
 
 interface NewsItem {
   id: string;

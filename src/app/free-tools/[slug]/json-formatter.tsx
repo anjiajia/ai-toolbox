@@ -18,8 +18,8 @@ export default function JsonFormatterTool() {
       } else {
         setOutput('✅ JSON格式正确！');
       }
-    } catch (e: any) {
-      setError(`❌ JSON错误: ${e.message}`);
+    } catch (e) {
+      setError(`❌ JSON错误: ${(e as Error).message}`);
       setOutput('');
     }
   };

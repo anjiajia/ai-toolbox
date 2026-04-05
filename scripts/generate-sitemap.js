@@ -3,6 +3,7 @@
  * 生成 sitemap.xml - 用于静态导出 (output: 'export')
  * 运行时机: build 之前
  */
+/* eslint-disable @typescript-eslint/no-require-imports */
 const fs = require('fs');
 const path = require('path');
 
